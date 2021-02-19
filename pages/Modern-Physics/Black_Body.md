@@ -9,6 +9,7 @@ summary: A Black Body can be understood as a.
 
 ## Introdução
 
+Um corpo negro pode ser entendendido como um objeto que absorve toda a radiação nele incidido.
 
 
 ### 1. Lei de Stefan-Boltzmann
