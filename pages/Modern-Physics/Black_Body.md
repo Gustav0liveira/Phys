@@ -16,7 +16,7 @@ Um corpo negro pode ser entendido como
 <details><summary>Clique aki para abrir as contas</summary>
     <p class="BodyText"> ```Imagine for example, that our better understandig of $\vec{F}=m\vec{a}$ ou \begin{equation} \vec{L}=-\frac{1}{2}mv^2 \end{equation}```
      </p>
-</details>
+</details></br>
 
 ### 1. Definição Local
 
