@@ -21,6 +21,7 @@ A primeira conjectura quantitativa com relação o comportamento de um corpo neg
 onde $\sigma = 5{,}67\times10^{-8} \frac{W}{m^2 K^4}$ e $j(T)$ é a desnidade de energia total radiada a partir de um metro quadro da superfície a uma temperatura $T$.
 
 Tal expressão foi novamente deduzida em $1884$ por Ludwig Boltzmann utilizando os seguintes argumentos clássicos:
+
 Sejam as expressões para a densidade de enegia eletromagnética volumétrica $u$ e o vetor de Poyting $\vec{S}$,
 
 \begin{equation} u = \frac{\epsilon_0}{2}\left(E^2+c^2B^2\right) \quad\quad e \quad\quad \vec{S}= \vec{E}\times\vec{B} \end{equation}
@@ -78,8 +79,22 @@ Ou ainda
 
 Onde  $u=\frac{\epsilon_0}{2}(E^2+c^2B^2)$  e $\vec{S}=\frac{1}{\mu_0}(\vec{E}\times\vec{B})$, constituindo a teorema de Poyting que correlaciona a densidade energia do campo eletromagnético  $u$ com o fluxo do vetor de poyting  $\vec{S}$.
 
+" %}
+</details>
 
-  " %}
+Outra quantidade é o fluxo da densidade de momento campo eletromagnético
+
+\begin{equation} \vec{P}=\epsilon_0\left(\vec{E}\times\vec{B}\right)
+
+<details>
+  <summary>{% include important.html content="$\vec{P}$ podem ser deduzidos na forma (clique aqui)" %} </summary>
+  {% include note.html content="
+Seja,
+
+\begin{equation}  \vec{F}=\dfrac{d\vec{p}}{dt}=q\left(\vec{E}+\vec{v}\times\vec{B} \right )\end{equation}
+
+Para  $q \rightarrow \int_V \rho d^3r$, temos que a expressão anterior pode ser reescrita da forma
+" %}
 </details>
 
 
