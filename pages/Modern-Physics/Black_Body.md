@@ -68,13 +68,13 @@ Integrando a última expressão sobre todo o espaço temos a expressão para a p
 \begin{equation}\frac{dW}{dt}=-\frac{d}{dt}\int d^3r \frac{\epsilon_0}{2}(E^2+c^2B^2)-\int d^3r \frac{1}{\mu_0}\vec{\nabla}}\cdot(\vec{E}\times\vec{B}) \end{equation}
 
 
-\begin{equation} -\dfrac{d}{dt}\displaystyle\iiint{\frac{\epsilon_0}{2}(E^2+c^2B^2)dV}-\oint \frac{1}{\mu_0}(\vec{E}\times\vec{B})}d^2r \end{equation}
+\begin{equation} -\dfrac{d}{dt}\displaystyle\iiint{\frac{\epsilon_0}{2}(E^2+c^2B^2)dV}-\oint \frac{1}{\mu_0}(\vec{E}\times\vec{B})d^2r \end{equation}
 
 
 Ou ainda
 
 
-\begin{equation}=\frac{dW}{dt}=-\frac{d}{dt} \int u dV-\oint_S{S}d^2r \end{equation}
+\begin{equation}=\frac{dW}{dt}=-\frac{d}{dt} \int u d^3r-\oint S d^2r \end{equation}
 
 
 Onde  $u=\frac{\epsilon_0}{2}(E^2+c^2B^2)$  e $\vec{S}=\frac{1}{\mu_0}(\vec{E}\times\vec{B})$, constituindo a teorema de Poyting que correlaciona a densidade energia do campo eletromagnético  $u$ com o fluxo do vetor de poyting  $\vec{S}$.
