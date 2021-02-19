@@ -9,13 +9,13 @@ summary: A Black Body can be understood as a.
 
 ## Introdução
 
-Um corpo negro pode ser entendido como
+Um corpo negro pode ser enteeendido como
 
 \begin{equation} \vec{F} \end{equation} $\vec{F}=m\vec{a}$
 
 <details><summary>Clique aki para abrir as contas</summary>
-    <p class="BodyText"> ```Imagine for example, that our better understandig of $\vec{F}=m\vec{a}$ ou \begin{equation} \vec{L}=-\frac{1}{2}mv^2 \end{equation}```
-     </p>
+    <p class="BodyText"> {% raw %}```Imagine for example, that our better understandig of $\vec{F}=m\vec{a}$ ou \begin{equation} \vec{L}=-\frac{1}{2}mv^2 \end{equation}```
+     {% endraw %}</p>
 </details></br>
 
 ### 1. Definição Local
