@@ -13,13 +13,12 @@ Um corpo negro pode ser enteeendido como
 
 \begin{equation} \vec{F} \end{equation} $\vec{F}=m\vec{a}$
 
-<br><details><summary>Clique aki para abrir as contas</summary>
-```yaml
+<details>
+<summary>Clique aki para abrir as contas</summary>
 - 
   Imagine for example, that our better understandig of $\vec{F}=m\vec{a}$ ou \begin{equation} \vec{L}=-\frac{1}{2}mv^2 \end{equation}
-  
-```
-</details><br>
+-
+</details>
 
 ### 1. Definição Local
 
