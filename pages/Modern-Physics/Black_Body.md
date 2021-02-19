@@ -13,7 +13,6 @@ Um corpo negro pode ser enteeendido como
 
 \begin{equation} \vec{F} \end{equation} $\vec{F}=m\vec{a}$
 
-<br>
 <details>
 <summary>{% include important.html content="A expressão para o vetor \vec{A} pode ser calculada na forma" %} </summary>
   {% include note.html content="Imagine for example, that our better understandig of $\vec{F}=m\vec{a}$ ou \begin{equation} \vec{L}=-\frac{1}{2}mv^2 \end{equation}" %}
