@@ -18,9 +18,17 @@ Um corpo negro pode ser enteeendido como
   {% include note.html content="Imagine for example, that our better understandig of $\vec{F}=m\vec{a}$ ou \begin{equation} \vec{L}=-\frac{1}{2}mv^2 \end{equation}" %}
 </details>
 
-### 1. Definição Local
+### 1. Lei de Stefan-Boltzmann
 
-First, download or clone the theme from the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**.
+A primeira conjectura quantitativa com relação o comportamento de um corpo negro, foi realizada em 1879 por Joseph Stefan na forma
+\begin{equation} u\left(T\right) = \sigma T^4\end{equation},
+onde $\sigma = 5{,}67\times10^{-8} \frac{W}/{m^2 K^4}$. no qual $u(T)$ é a potencia total radiada a partir de um metro quadro da superfície a uma temperatura $T$.
+
+Tal expressão foi novamente deduzida em $1884$ por Ludwig Boltzmann utilizando os seguintes argumentos clássicos:
+Através do Teorema de Poyting é possível correlacionar a densidade de enegia eletromagnética volumétrica $u$ e o vetor de Poyting $\vec{S}$ na seguinte forma:
+
+\begin{equation} \frac{dW}{dt}=Potencia==\frac{d}{dt}\iiint d^3r \frac{\epsilon_0}{2}\left(E^2+c^2B^2\right)-\oiint \vec{S}\cdot\hat{n}d^2r \end{equation}
+
 
 ### 2. Como Funciona $\vec{F}=m\vec{a}$
 
