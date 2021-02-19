@@ -14,7 +14,7 @@ Um corpo negro pode ser entendido como
 \begin{equation} \vec{F} \end{equation} $\vec{F}=m\vec{a}$
 
 <details><summary>Clique aki para abrir as contas</summary>
-    <p class="BodyText"> Imagine for example, that our better understandig of $\vec{F}=m\vec{a}$ ou \begin{equation} \vec{L}=-\frac{1}{2}mv^2 \end{equation}
+    <p class="BodyText"> ''''Imagine for example, that our better understandig of $\vec{F}=m\vec{a}$ ou \begin{equation} \vec{L}=-\frac{1}{2}mv^2 \end{equation}''''
      </p>
 </details>
 
@@ -26,8 +26,8 @@ First, download or clone the theme from the [Github repo](https://github.com/tom
 
 If you've never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:
 
-* [Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
-* [Install Jekyll on Windows][mydoc_install_jekyll_on_windows]
+*[Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
+*[Install Jekyll on Windows][mydoc_install_jekyll_on_windows]
 
 ### 3. Melhoras
 
