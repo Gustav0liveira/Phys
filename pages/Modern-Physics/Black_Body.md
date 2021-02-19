@@ -14,14 +14,15 @@ summary: A Black Body can be understood as a.
 ### 1. Lei de Stefan-Boltzmann
 
 A primeira conjectura quantitativa com relação o comportamento de um corpo negro, foi realizada em 1879 por Joseph Stefan na forma
-$$ j\left(T\right) = u/A = \sigma T^4$$,
+
+$$ j\left(T\right) = u/A = \sigma T^4 $$,
 
 onde $\sigma = 5{,}67\times10^{-8} \frac{W}{m^2 K^4}$ e $j(T)$ é a desnidade de energia total radiada a partir de um metro quadro da superfície a uma temperatura $T$.
 
 Tal expressão foi novamente deduzida em $1884$ por Ludwig Boltzmann utilizando os seguintes argumentos clássicos:
 Sejam as expressões para a densidade de enegia eletromagnética volumétrica $u$ e o vetor de Poyting $\vec{S}$,
 
-$$\frac{\epsilon_0}{2}\left(E^2+c^2B^2\right) \quad \vec{S}= \vec{E}\times\vec{B}$$
+\begin{matrix}\frac{\epsilon_0}{2}\left(E^2+c^2B^2\right) & \vec{S}= \vec{E}\times\vec{B}\end{matrix}
 
 <details>
   <summary>{% include important.html content="$u$ e $\vec{S}$ podem ser deduzidos pelo teorema de Poynting da seguinte forma (clique aqui)" %} </summary>
