@@ -46,6 +46,46 @@ Sejam as expressões para a densidade de enegia eletromagnética volumétrica $u
  A partir da lei de Àmpere, a qual $\vec{J}=\frac{1}{\mu_0}\left(\vec{\nabla}\times\vec{B} \right )-\epsilon_0\dfrac{\partial\vec{E}}{\partial t}$, temos que
  
  $$ \vec{E}\cdot\vec{J}=\frac{1}{\mu_0}\vec{E}\cdot\left(\vec{\nabla}\times\vec{B} \right )-\epsilon_0\vec{E}\cdot\frac{\partial \vec{E}}{\partial t}$$
+ 
+ <!-- wp:paragraph -->
+<p>mas  \vec{E}\cdot (\vec{\nabla}\times\vec{E}) = \vec{B}\cdot(\vec{\nabla}\times\vec{B})-\vec{\nabla}\cdot(\vec{E}\times\vec{B}) [/latex], e para  [latex] \vec{\nabla}\times\vec{E}=-\frac{\partial \vec{E}}{\partial t} [/latex] então  [latex] \vec{E}\cdot (\vec{\nabla}\times\vec{E}) = -\vec{B}\cdot\frac{\partial \vec{B}}{\partial t}-\vec{\nabla}\cdot(\vec{E}\times\vec{B}) [/latex]. Permitindo reescrever a expressão para  [latex] \vec{E}\cdot\vec{J} na forma,</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center"> \vec{E}\cdot\vec{J} = -c^2\epsilon_0\vec{B}\cdot\frac{\partial \vec{B}}{\partial t} -\epsilon_0 \vec{E} \cdot \dfrac{\partial\vec{E}}{\partial t} -\frac{1}{\mu_0}\vec{\nabla}\cdot(\vec{E}\times\vec{B})</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Seja ainda,  \vec{B}\cdot\frac{\partial \vec{B}}{\partial t}=\frac{1}{2}\frac{\partial}{\partial t}B^2 [/latex] e [latex] \vec{E}\cdot\frac{\partial \vec{E}}{\partial t}=\frac{1}{2}\frac{\partial}{\partial t}E^2, temos que</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center"> \vec{E}\cdot\vec{J}=-\frac{\epsilon_0}{2}\left(E^2+c^2B^2\right)-\frac{1}{\mu_0}\vec{\nabla}\cdot(\vec{E}\times\vec{B})</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Integrando a última expressão sobre todo o espaço temos a expressão para a potência \frac{dW}{dt} transferida pela força eletromagnética, que tem a forma:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center"> \frac{dW}{dt}=-\frac{d}{dt}\displaystyle\iiint{\frac{\epsilon_0}{2}(E^2+c^2B^2)dV}-\displaystyle\iiint{\frac{1}{\mu_0}\vec{\nabla}}\cdot(\vec{E}\times\vec{B})dV </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center"> -\dfrac{d}{dt}\displaystyle\iiint{\frac{\epsilon_0}{2}(E^2+c^2B^2)dV}-\displaystyle\oint_S{\frac{1}{\mu_0}(\vec{E}\times\vec{B})}d^3r</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Ou ainda</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">=\frac{dW}{dt}=-\frac{d}{dt}\displaystyle\iiint{udV}-\displaystyle\oint_S{S}dV</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Onde  u=\frac{\epsilon_0}{2}(E^2+c^2B^2) [/latex]  e  [latex] \vec{S}=\frac{1}{\mu_0}(\vec{E}\times\vec{B}) [/latex], constituindo a teorema de Poyting que correlaciona a densidade energia do campo eletromagnético  [latex] u [/latex] com o fluxo do vetor de poyting  [latex] \vec{S}.</p>
+<!-- /wp:paragraph -->
   " %}
 </details>
 
