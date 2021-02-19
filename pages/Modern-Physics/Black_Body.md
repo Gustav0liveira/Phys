@@ -24,7 +24,7 @@ Tal expressão foi novamente deduzida em $1884$ por Ludwig Boltzmann utilizando 
 
 Sejam as expressões para a densidade de enegia eletromagnética volumétrica $u$ e o vetor de Poyting $\vec{S}$,
 
-\begin{equation} u = \frac{\epsilon_0}{2}\left(E^2+c^2B^2\right) \quad\quad e \quad\quad \vec{S}= \vec{E}\times\vec{B} \end{equation}
+\begin{equation} u = \frac{\epsilon_0}{2}\left(E^2+c^2B^2\right) \quad\quad e \quad\quad \vec{S}= \frac{1}{\mu_0}\left(\vec{E}\times\vec{B}\right \end{equation}
 
 <details>
   <summary>{% include important.html content="$u$ e $\vec{S}$ podem ser deduzidos pelo teorema de Poynting da seguinte forma (clique aqui)" %} </summary>
@@ -84,18 +84,38 @@ Onde  $u=\frac{\epsilon_0}{2}(E^2+c^2B^2)$  e $\vec{S}=\frac{1}{\mu_0}(\vec{E}\t
 
 Outra quantidade é o fluxo da densidade de momento campo eletromagnético
 
-\begin{equation} \vec{P}=\epsilon_0\left(\vec{E}\times\vec{B}\right)
+\begin{equation} \vec{P}=\epsilon_0\left(\vec{E}\times\vec{B}\right)\end{equation}
 
 <details>
-  <summary>{% include important.html content="$\vec{P}$ podem ser deduzidos na forma (clique aqui)" %} </summary>
+  <summary>{% include important.html content="$\vec{P}$ pode ser deduzido na forma (clique aqui)" %} </summary>
   {% include note.html content="
 Seja,
 
 \begin{equation}  \vec{F}=\dfrac{d\vec{p}}{dt}=q\left(\vec{E}+\vec{v}\times\vec{B} \right )\end{equation}
 
 Para  $q \rightarrow \int_V \rho d^3r$, temos que a expressão anterior pode ser reescrita da forma
+
+ \begin{equation}\dfrac{d}{dt}\vec{P}_{Mec}= \int_V{ \rho \left(\vec{E}+\vec{v}\times\vec{B} \right )d^3r}= \int_V \left(\rho\vec{E}+\vec{J}\times\vec{B} \right )d^3r \end{equation}
+
+ Onde  $ P_{Mec} $ é o momento total do sistema. Através das equações de maxwell,  $ \rho=\epsilon_0\vec{\nabla}\vec{E}$ e  $\vec{J}=\frac{1}{\mu_0} (\vec{\nabla}\times\vec{B})-\epsilon_0\frac{\partial \vec{E}}{\partial t}$ é possível reescrever a expressão  $\rho\vec{E}+\vec{J}\vec{B}$ na forma:
+
+ \begin{equation} \rho\vec{E}+\vec{J}\vec{B}=\epsilon_0\vec{E}(\vec{\nabla}\cdot\vec{E})+\epsilon_0\vec{B}\times\frac{\partial \vec{E}}{\partial t}-\frac{1}{\mu_0}\vec{B}\times(\vec{\nabla}\times\vec{B})  \end{equation}
+
+ Para  $\vec{B}\times\dfrac{\partial \vec{E}}{\partial t}=\dfrac{\partial}{\partial t}(\vec{E}\times\vec{B})+\vec{E}\times\dfrac{\partial \vec{B}}{\partial t}$, temos que a última expressão também pode ser reconhecida como:
+
+ \begin{equation} \begin{matrix}\rho\vec{E}+\vec{J}\vec{B}=\epsilon_0 \left[\vec{E}(\vec{\nabla}\cdot\vec{E})+c^2\vec{B}(\vec{\nabla}\cdot\vec{B}) \right]+\epsilon_0\vec{E}\times\frac{\partial \vec{B}}{\partial t} \\- \epsilon_0\frac{\partial}{\partial t}(\vec{E}\times\vec{B})-\epsilon_0 c^2\vec{B}\times(\vec{\nabla}\times\vec{B}) \end{matrix} \end{equation}
+
+Temos que,
+
+ \begin{equation} \begin{matrix}\frac{d}{dt}\vec{P}_{Mec}+\frac{d}{dt} \int_V \epsilon_0(\vec{E}\times\vec{B})dV \\=\epsilon_0\displaystyle \int_V \left[\vec{E}\cdot(\vec{\nabla}\cdot\vec{E})+c^2\vec{B}\cdot(\vec{\nabla}\cdot\vec{B})+\vec{E}\times\frac{\partial\vec{B}}{\partial t}-c^2\vec{B}(\vec{\nabla}\times\vec{B}) \right ]d^3r \end{matrix}\end{equation}
+
+Possibilitando identificar o momento do campo eletromagnético como  $\vec{P}_{Campo}= \displaystyle \iiint{\vec{p}}d^3$ onde  $\vec{p}=\epsilon_0(\vec{E}\times\vec{B})$ é a densidade de momento do campo eletromagnético.
+
+
 " %}
 </details>
+
+\begin{equation} \end{equation}
 
 
 ### 2. Como Funciona $\vec{F}=m\vec{a}$
