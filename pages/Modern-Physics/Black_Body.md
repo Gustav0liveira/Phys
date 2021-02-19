@@ -23,7 +23,7 @@ onde $\sigma = 5{,}67\times10^{-8} \frac{W}{m^2 K^4}$ e $j(T)$ é a desnidade de
 Tal expressão foi novamente deduzida em $1884$ por Ludwig Boltzmann utilizando os seguintes argumentos clássicos:
 Sejam as expressões para a densidade de enegia eletromagnética volumétrica $u$ e o vetor de Poyting $\vec{S}$,
 
-\begin{equation} \frac{\epsilon_0}{2}\left(E^2+c^2B^2\right) \quad\quad\quad\quad \vec{S}= \vec{E}\times\vec{B} \end{matrix}
+\begin{equation} \frac{\epsilon_0}{2}\left(E^2+c^2B^2\right) \quad\quad\quad\quad \vec{S}= \vec{E}\times\vec{B} \end{equation}
 
 <details>
   <summary>{% include important.html content="$u$ e $\vec{S}$ podem ser deduzidos pelo teorema de Poynting da seguinte forma (clique aqui)" %} </summary>
