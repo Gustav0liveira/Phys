@@ -31,7 +31,7 @@ Sejam as expressões para a densidade de enegia eletromagnética volumétrica $u
     Seja o trabalho realizada pela força de lorentz
   
   
-  $$ dW=\vec{F}\cdot d\vec{l} = q\left(\vec{E}+\vec{v}\times\vec{B}\right)\cdot\vec{v}dt= q\vec{E}\cdot\vec{v}dt $$
+  \begin{equation} dW=\vec{F}\cdot d\vec{l} = q\left(\vec{E}+\vec{v}\times\vec{B}\right)\cdot\vec{v}dt= q\vec{E}\cdot\vec{v}dt \end{equation}
   
   
   sendo $q\leftarrow \rho d^3r \implies q\vec{v}=\rho\vec{v}d^3r=\vec{J}d^3r$
@@ -59,22 +59,22 @@ Seja ainda,  $\vec{B}\cdot\frac{\partial \vec{B}}{\partial t}=\frac{1}{2}\frac{\
 
 
 
-\begin{equation}\vec{E}\cdot\vec{J}=-\frac{\epsilon_0}{2}\left(E^2+c^2B^2\right)-\frac{1}{\mu_0}\vec{\nabla}\cdot(\vec{E}\times\vec{B \end{equation}
+\begin{equation}\vec{E}\cdot\vec{J}=-\frac{\epsilon_0}{2}\left(E^2+c^2B^2\right)-\frac{1}{\mu_0}\vec{\nabla}\cdot(\vec{E}\times\vec{B} \end{equation}
 
 
 Integrando a última expressão sobre todo o espaço temos a expressão para a potência $\frac{dW}{dt}$ transferida pela força eletromagnética, que tem a forma:
 
 
-\begin{equation}\frac{dW}{dt}=-\frac{d}{dt}\displaystyle\iiint{\frac{\epsilon_0}{2}(E^2+c^2B^2)dV}-\displaystyle\iiint{\frac{1}{\mu_0}\vec{\nabla}}\cdot(\vec{E}\times\vec{B})dV \end{equation}
+\begin{equation}\frac{dW}{dt}=-\frac{d}{dt}\int d^3r \frac{\epsilon_0}{2}(E^2+c^2B^2)-\int d^3r \frac{1}{\mu_0}\vec{\nabla}}\cdot(\vec{E}\times\vec{B}) \end{equation}
 
 
-\begin{equation} -\dfrac{d}{dt}\displaystyle\iiint{\frac{\epsilon_0}{2}(E^2+c^2B^2)dV}-\displaystyle\oint_S{\frac{1}{\mu_0}(\vec{E}\times\vec{B})}d^3r end{equation}
+\begin{equation} -\dfrac{d}{dt}\displaystyle\iiint{\frac{\epsilon_0}{2}(E^2+c^2B^2)dV}-\oint \frac{1}{\mu_0}(\vec{E}\times\vec{B})}d^2r \end{equation}
 
 
 Ou ainda
 
 
-\begin{equation}=\frac{dW}{dt}=-\frac{d}{dt}\displaystyle\iiint{udV}-\displaystyle\oint_S{S}dV\end{equation}
+\begin{equation}=\frac{dW}{dt}=-\frac{d}{dt} \int u dV-\oint_S{S}d^2r \end{equation}
 
 
 Onde  $u=\frac{\epsilon_0}{2}(E^2+c^2B^2)$  e $\vec{S}=\frac{1}{\mu_0}(\vec{E}\times\vec{B})$, constituindo a teorema de Poyting que correlaciona a densidade energia do campo eletromagnético  $u$ com o fluxo do vetor de poyting  $\vec{S}$.
