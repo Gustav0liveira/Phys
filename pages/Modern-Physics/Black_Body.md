@@ -9,14 +9,7 @@ summary: A Black Body can be understood as a.
 
 ## Introdução
 
-Um corpo negro pode ser enteeendido como
 
-\begin{equation} \vec{F} \end{equation} $\vec{F}=m\vec{a}$
-
-<details>
-<summary>{% include important.html content="A expressão para o vetor $\vec{A}$ pode ser calculada na forma" %} </summary>
-  {% include note.html content="Imagine for example, that our better understandig of $\vec{F}=m\vec{a}$ ou \begin{equation} \vec{L}=-\frac{1}{2}mv^2 \end{equation}" %}
-</details>
 
 ### 1. Lei de Stefan-Boltzmann
 
@@ -27,7 +20,18 @@ onde $\sigma = 5{,}67\times10^{-8} \frac{W}/{m^2 K^4}$. no qual $u(T)$ é a pote
 Tal expressão foi novamente deduzida em $1884$ por Ludwig Boltzmann utilizando os seguintes argumentos clássicos:
 Através do Teorema de Poyting é possível correlacionar a densidade de enegia eletromagnética volumétrica $u$ e o vetor de Poyting $\vec{S}$ na seguinte forma:
 
-\begin{equation} \frac{dW}{dt}=Potencia==\frac{d}{dt}\iiint d^3r \frac{\epsilon_0}{2}\left(E^2+c^2B^2\right)-\oiint \vec{S}\cdot\hat{n}d^2r \end{equation}
+\begin{equation} \frac{dW}{dt}=Pot=-\frac{d}{dt}\int \frac{\epsilon_0}{2}\left(E^2+c^2B^2\right)d^3r-\oint \vec{S}\cdot\hat{n}d^2r \end{equation}
+
+<details>
+  <summary>{% include important.html content="O teorema de Poynting pode ser deduzido da seguinte forma (clique aqui)" %} </summary>
+  {% include note.html content="
+    Seja o trabalho realizada pela força de lorentz
+  
+  $$ dW=\vec{F}\cdot d\vec{l} = q\left(\vec{E}+\vec{v}\times\vec{B}\right)\cdot\vec{v}dt= q\vec{E}\cdot\vec{v}dt $$
+  
+  sendo q\leftarrow \rho d^3r \implies q\vec{v}=\rho\vec{v}d^3r=\vec{J}d^3r
+  " %}
+</details>
 
 
 ### 2. Como Funciona $\vec{F}=m\vec{a}$
