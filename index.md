@@ -11,6 +11,11 @@ summary: These brief instructions will help you get\begin{equation} \vec{F} \end
 
 ## Build the Theme
 
+<details><summary>Clique aki para abrir as contas</summary>
+    <p class="BodyText"> Imagine for example, that our better understandig of $\vec{F}=m\vec{a}$ ou \begin{equation} \vec{L}=-\frac{1}{2}mv^2 \end{equation}
+     </p>
+</details>
+
 Follow these instructions to build the theme.
 \begin{equation} \vec{F} \end{equation} $\vec{F}=m\vec{a}$
 ### 1. Download the theme
