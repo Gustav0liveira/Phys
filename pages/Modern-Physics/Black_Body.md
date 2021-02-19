@@ -37,47 +37,44 @@ Sejam as expressões para a densidade de enegia eletromagnética volumétrica $u
   sendo $q\leftarrow \rho d^3r \implies q\vec{v}=\rho\vec{v}d^3r=\vec{J}d^3r$
   
  
- $$ \frac{dW}{dt}=-\frac{d}{dt}\int \frac{\epsilon_0}{2}\left(E^2+c^2B^2\right)d^3r-\oint \vec{S}\cdot\hat{n}d^2r $$
+ \begin{equation} \frac{dW}{dt}=-\frac{d}{dt}\int \frac{\epsilon_0}{2}\left(E^2+c^2B^2\right)d^3r-\oint \vec{S}\cdot\hat{n}d^2r \end{equation}
  
  Logo, tem-se que
  
- $$ \frac{dW}{dt}=\int d^3r \left(\vec{E}\cdot\vec{J} \right ) $$
+ \begin{equation} \frac{dW}{dt}=\int d^3r \left(\vec{E}\cdot\vec{J} \right ) \end{equation}
  
  A partir da lei de Àmpere, a qual $\vec{J}=\frac{1}{\mu_0}\left(\vec{\nabla}\times\vec{B} \right )-\epsilon_0\dfrac{\partial\vec{E}}{\partial t}$, temos que
  
- $$ \vec{E}\cdot\vec{J}=\frac{1}{\mu_0}\vec{E}\cdot\left(\vec{\nabla}\times\vec{B} \right )-\epsilon_0\vec{E}\cdot\frac{\partial \vec{E}}{\partial t}$$
+\begin{equation} \vec{E}\cdot\vec{J}=\frac{1}{\mu_0}\vec{E}\cdot\left(\vec{\nabla}\times\vec{B} \right )-\epsilon_0\vec{E}\cdot\frac{\partial \vec{E}}{\partial t} \end{equation}
  
 mas  $\vec{E}\cdot (\vec{\nabla}\times\vec{E}) = \vec{B}\cdot(\vec{\nabla}\times\vec{B})-\vec{\nabla}\cdot(\vec{E}\times\vec{B})$, e para  $\vec{\nabla}\times\vec{E}=-\frac{\partial \vec{E}}{\partial t}$ então  $\vec{E}\cdot (\vec{\nabla}\times\vec{E}) = -\vec{B}\cdot\frac{\partial \vec{B}}{\partial t}-\vec{\nabla}\cdot(\vec{E}\times\vec{B})$.
 
 Permitindo reescrever a expressão para $\vec{E}\cdot\vec{J}$ na forma,
 
 
-$$ \vec{E}\cdot\vec{J} = -c^2\epsilon_0\vec{B}\cdot\frac{\partial \vec{B}}{\partial t} -\epsilon_0 \vec{E} \cdot \dfrac{\partial\vec{E}}{\partial t} -\frac{1}{\mu_0}\vec{\nabla}\cdot(\vec{E}\times\vec{B})$$
+\begin{equation} \vec{E}\cdot\vec{J} = -c^2\epsilon_0\vec{B}\cdot\frac{\partial \vec{B}}{\partial t} -\epsilon_0 \vec{E} \cdot \dfrac{\partial\vec{E}}{\partial t} -\frac{1}{\mu_0}\vec{\nabla}\cdot(\vec{E}\times\vec{B}) \end{equation}
+
+
+Seja ainda,  $\vec{B}\cdot\frac{\partial \vec{B}}{\partial t}=\frac{1}{2}\frac{\partial}{\partial t}B^2 $ e $ \vec{E}\cdot\frac{\partial \vec{E}}{\partial t}=\frac{1}{2}\frac{\partial}{\partial t}E^2$, temos que
 
 
 
-Seja ainda,  $$\vec{B}\cdot\frac{\partial \vec{B}}{\partial t}=\frac{1}{2}\frac{\partial}{\partial t}B^2 [/latex] e [latex] \vec{E}\cdot\frac{\partial \vec{E}}{\partial t}=\frac{1}{2}\frac{\partial}{\partial t}E^2$$, temos que
-
-
-
-$$\vec{E}\cdot\vec{J}=-\frac{\epsilon_0}{2}\left(E^2+c^2B^2\right)-\frac{1}{\mu_0}\vec{\nabla}\cdot(\vec{E}\times\vec{B $$
-
+\begin{equation}\vec{E}\cdot\vec{J}=-\frac{\epsilon_0}{2}\left(E^2+c^2B^2\right)-\frac{1}{\mu_0}\vec{\nabla}\cdot(\vec{E}\times\vec{B \end{equation}
 
 
 Integrando a última expressão sobre todo o espaço temos a expressão para a potência $\frac{dW}{dt}$ transferida pela força eletromagnética, que tem a forma:
 
 
+\begin{equation}\frac{dW}{dt}=-\frac{d}{dt}\displaystyle\iiint{\frac{\epsilon_0}{2}(E^2+c^2B^2)dV}-\displaystyle\iiint{\frac{1}{\mu_0}\vec{\nabla}}\cdot(\vec{E}\times\vec{B})dV \end{equation}
 
-$$\frac{dW}{dt}=-\frac{d}{dt}\displaystyle\iiint{\frac{\epsilon_0}{2}(E^2+c^2B^2)dV}-\displaystyle\iiint{\frac{1}{\mu_0}\vec{\nabla}}\cdot(\vec{E}\times\vec{B})dV $$
 
-
-$$-\dfrac{d}{dt}\displaystyle\iiint{\frac{\epsilon_0}{2}(E^2+c^2B^2)dV}-\displaystyle\oint_S{\frac{1}{\mu_0}(\vec{E}\times\vec{B})}d^3r$$
+\begin{equation} -\dfrac{d}{dt}\displaystyle\iiint{\frac{\epsilon_0}{2}(E^2+c^2B^2)dV}-\displaystyle\oint_S{\frac{1}{\mu_0}(\vec{E}\times\vec{B})}d^3r end{equation}
 
 
 Ou ainda
 
 
-$$=\frac{dW}{dt}=-\frac{d}{dt}\displaystyle\iiint{udV}-\displaystyle\oint_S{S}dV$$
+\begin{equation}=\frac{dW}{dt}=-\frac{d}{dt}\displaystyle\iiint{udV}-\displaystyle\oint_S{S}dV\end{equation}
 
 
 Onde  $u=\frac{\epsilon_0}{2}(E^2+c^2B^2)$  e $\vec{S}=\frac{1}{\mu_0}(\vec{E}\times\vec{B})$, constituindo a teorema de Poyting que correlaciona a densidade energia do campo eletromagnético  $u$ com o fluxo do vetor de poyting  $\vec{S}$.
