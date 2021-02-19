@@ -27,9 +27,11 @@ Através do Teorema de Poyting é possível correlacionar a densidade de enegia 
   {% include note.html content="
     Seja o trabalho realizada pela força de lorentz
   
+  
   $$ dW=\vec{F}\cdot d\vec{l} = q\left(\vec{E}+\vec{v}\times\vec{B}\right)\cdot\vec{v}dt= q\vec{E}\cdot\vec{v}dt $$
   
-  sendo q\leftarrow \rho d^3r \implies q\vec{v}=\rho\vec{v}d^3r=\vec{J}d^3r
+  
+  sendo $q\leftarrow \rho d^3r \implies q\vec{v}=\rho\vec{v}d^3r=\vec{J}d^3r$
   " %}
 </details>
 
