@@ -13,6 +13,11 @@ Um corpo negro pode ser entendido como
 
 \begin{equation} \vec{F} \end{equation} $\vec{F}=m\vec{a}$
 
+<details><summary>Clique aki para abrir as contas</summary>
+    <p class="BodyText"> Imagine for example, that our better understandig of $\vec{F}=m\vec{a}$ ou \begin{equation} \vec{L}=-\frac{1}{2}mv^2 \end{equation}
+     </p>
+</details>
+
 ### 1. Definição Local
 
 First, download or clone the theme from the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**.
