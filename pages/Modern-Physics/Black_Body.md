@@ -103,12 +103,12 @@ Para  $q \rightarrow \int_V \rho d^3r$, temos que a expressão anterior pode ser
 
  \begin{matrix} \rho\vec{E}+\vec{J}\vec{B}=\epsilon_0 \left(\vec{E}(\vec{\nabla}\cdot\vec{E})+c^2\vec{B}(\vec{\nabla}\cdot\vec{B}) \right)+\epsilon_0\vec{E}\times\frac{\partial \vec{B}}{\partial t} \\- \epsilon_0\frac{\partial}{\partial t}(\vec{E}\times\vec{B})-\epsilon_0 c^2\vec{B}\times(\vec{\nabla}\times\vec{B}) \end{matrix}
  
- 
+
 Temos que,
 
- \begin{matrix}\frac{d}{dt}\vec{P}_{Mec}+\frac{d}{dt} \int_V \epsilon_0(\vec{E}\times\vec{B})d^3r \\ =\epsilon_0 \int_V \left(\vec{E}\cdot(\vec{\nabla}\cdot\vec{E})+c^2\vec{B}\cdot(\vec{\nabla}\cdot\vec{B})+\vec{E}\times\frac{\partial}{\partial t}\vec{B}-c^2\vec{B}(\vec{\nabla}\times\vec{B}) \right)d^3r \end{matrix}
-
-Possibilitando identificar o momento do campo eletromagnético como  $\vec{P}_{Campo}= \int_V \vec{p} d^3$ onde  $\vec{p}=\epsilon_0(\vec{E}\times\vec{B})$ é a densidade de momento do campo eletromagnético.
+ \begin{matrix} d/dt\vec{P_{Mec}}+d/dt \int_V \epsilon_0(\vec{E}\times\vec{B})d^3r \\ =\epsilon_0 \int_V \left(\vec{E}\cdot(\vec{\nabla}\cdot\vec{E})+c^2\vec{B}\cdot(\vec{\nabla}\cdot\vec{B})+\vec{E}\times\frac{\partial}{\partial t}\vec{B}-c^2\vec{B}(\vec{\nabla}\times\vec{B}) \right)d^3r \end{matrix}
+ 
+ Possibilitando identificar o momento do campo eletromagnético como  $\vec{P}_{Campo}= \int_V \vec{p} d^3r $ onde  $\vec{p}=\epsilon_0(\vec{E}\times\vec{B})$ é a densidade de momento do campo eletromagnético.
 
 
 " %}
