@@ -133,20 +133,14 @@ Imaginando que o corpo negro transmita sua radiação eletromagnética por meio 
   
  \begin{equation} \vec{E}=\vec{E_0} e^{i(\vec{k}\cdot\vec{r}-\omega t)} \qquad \vec{B}=\vec{B_0} e^{i(\vec{k}\cdot\vec{r}-\omega t)}. \end{equation}
  
-  Pela lei de Gauss nessas circunstânicas, $\vec{\nabla}\cdot\vec{E}=0$, assim, inserindo a solução para a onda plana na mesma, obtém-se:
-  
-  \begin{matrix}
-   0=\vec{\nabla}\cdot\left(\vec{E_0} e^{i(\vec{k}\cdot\vec{r}-\omega t)} \right ) & =\sum_i \frac{\partial}{\partial x_i} E_{0i} e^{i(\sum_l k_l x_l-\omega t)} & = \sum_i  E_{0i} \frac{\partial}{\partial x_i}  e^{i(\sum_l k_l x_l-\omega t)} 
-   \\ =\sum_i E_{0i} \left(\sum_l ik_l \frac{\partial x_l}{\partial x_i}\quad e^{i(\sum_l k_l x_l-\omega t)} \right ) & =\sum_i E_{0i} \left(\sum_l ik_l \delta_{il} e^{i(\vec{k}\cdot\vec{r}-\omega t)} \right) & =\sum_i E_{0i} \left(\sum_l ik_l \delta_{il} e^{i(\vec{k}\cdot\vec{r}-\omega t)} \right) 
-  \end{matrix}
-  
+  Pela lei de Gauss nessas circunstânicas, $\vec{\nabla}\cdot\vec{E}=0$, assim, inserindo a solução para a onda plana na mesma, obtém-se:  
   
  
- \begin{equation} \scriptsize{0=\vec{\nabla}\cdot\left(\vec{E_0} e^{i(\vec{k}\cdot\vec{r}-\omega t)} \right ) = \sum_i \frac{\partial}{\partial x_i} E_{0i} e^{i(\sum_l k_l x_l-\omega t)}=\sum_i  E_{0i} \frac{\partial}{\partial x_i}  e^{i(\sum_l k_l x_l-\omega t)}} \end{equation}
+ \begin{equation} \scriptsize{0=\vec{\nabla}\cdot\left(\vec{E_0} e^{i(\vec{k}\cdot\vec{r}-\omega t)} \right ) = \sum_i \frac{\partial}{\partial x_i} E_{0i} e^{i(\sum_l k_l x_l-\omega t)}} \end{equation}
  
- \begin{equation} \scriptsize{\sum_i E_{0i} \left(\sum_l ik_l \frac{\partial x_l}{\partial x_i}\quad e^{i(\sum_l k_l x_l-\omega t)} \right )=\sum_i E_{0i} \left(\sum_l ik_l \delta_{il} e^{i(\vec{k}\cdot\vec{r}-\omega t)} \right)} \end{equation}
+ \begin{equation} \scriptsize{=\sum_i  E_{0i} \frac{\partial}{\partial x_i}  e^{i(\sum_l k_l x_l-\omega t)} = \scriptsize{\sum_i E_{0i} \left(\sum_l ik_l \frac{\partial x_l}{\partial x_i}e^{i(\sum_l k_l x_l-\omega t)} \right )} \end{equation}
  
- \begin{equation} \scriptsize{=\sum_i E_{0i} \left(ik_i e^{i(\vec{k}\cdot\vec{r}-\omega t)} \right) = i\vec{k}\cdot\vec{E_0}e^{i(\vec{k}\cdot\vec{r}-\omega t)}=i \vec{k}\cdot\vec{E}} \end{equation}
+ \begin{equation} \scriptsize{=\sum_i E_{0i} \left(\sum_l ik_l \delta_{il} e^{i(\vec{k}\cdot\vec{r}-\omega t)} \right)}=\sum_i E_{0i} \left(ik_i e^{i(\vec{k}\cdot\vec{r}-\omega t)} \right) = i\vec{k}\cdot\vec{E_0}e^{i(\vec{k}\cdot\vec{r}-\omega t)}=i \vec{k}\cdot\vec{E}} \end{equation}
  
  Logo se deduz que $\vec{k}\cdot\vec{E}=0$. 
  
@@ -154,11 +148,17 @@ Imaginando que o corpo negro transmita sua radiação eletromagnética por meio 
  
  E por último, pela Lei de Faraday nestas circunstâncias, $\vec{\nabla}\times\vec{E}=-\frac{\partial \vec{B}}{\partial t}$, temos
  
- \begin{equation} \sum_{ijk} \epsilon_{ijk}\frac{\partial}{\partial x_j}E_k \hat{x_i} = \sum_{ijk} \epsilon_{ijk}E_{0k}\frac{\partial}{\partial x_j} e^{i(\sum_l k_l x_l-\omega t)} \hat{x_i} \end{equation}
+ \begin{equation} \scriptsize{\sum_{ijk} \epsilon_{ijk}\frac{\partial}{\partial x_j}E_k \hat{x_i} = \sum_{ijk} \epsilon_{ijk}E_{0k}\frac{\partial}{\partial x_j} e^{i(\sum_l k_l x_l-\omega t)} \hat{x_i}} \end{equation}
  
- \begin{equation}\sum_{ijk} \epsilon_{ijk}E_{0k}\sum_l i k_l\frac{\partial  x_l}{\partial x_j} e^{i(\sum_l k_l x_l-\omega t)} \hat{x_i} = i \sum_{ijk} \epsilon_{ijk}  k_j \left(E_{0k}e^{i(\vec{k}\cdot \vec{r}-\omega t)} \right) \hat{x_i} \end{equation}
+ \begin{equation}\scriptsize{ \sum_{ijk} \epsilon_{ijk}E_{0k}\sum_l i k_l\frac{\partial  x_l}{\partial x_j} e^{i(\sum_l k_l x_l-\omega t)} \hat{x_i} = i \sum_{ijk} \epsilon_{ijk}  k_j \left(E_{0k}e^{i(\vec{k}\cdot \vec{r}-\omega t)} \right) \hat{x_i}} \end{equation}
  
- \begin{equation}   \scriptsize{i \sum_{ijk} \epsilon_{ijk}  k_j E_k \hat{x_i}=i\vec{k}\times\vec{E}=-\frac{\partial \vec{B}}{\partial t} = - \sum_i E_{0i}\frac{\partial}{\partial t}e^{i(\vec{k}\cdot \vec{r}-\omega t)}=-(-i\omega)\vec{B}}\end{equation}
+ \begin{equation}   \scriptsize{i \sum_{ijk} \epsilon_{ijk}  k_j E_k \hat{x_i}=i\vec{k}\times\vec{E}=-\frac{\partial \vec{B}}{\partial t} = - \sum_i E_{0i}\frac{\partial}{\partial t}e^{i(\vec{k}\cdot \vec{r}-\omega t)}\end{equation}
+ 
+ \begin{equation} =-(-i\omega)\vec{B}} \implies \vec{k}\times\vec{E} = \omega \vec{B} \end{equation}
+ 
+ Ou ainda, a expressão a ser provada
+ 
+ \begin{equation} \frac{1}{\omega}\vec{k}\times\vec{E} = \frac{1}{ck}\vec{k}\times\vec{E}  \end{equation}
  
 " %}
 </details>
