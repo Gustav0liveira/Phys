@@ -134,6 +134,13 @@ Imaginando que o corpo negro transmita sua radiação eletromagnética por meio 
  \begin{equation} \vec{E}=\vec{E_0} e^{i(\vec{k}\cdot\vec{r}-\omega t)} \qquad \vec{B}=\vec{B_0} e^{i(\vec{k}\cdot\vec{r}-\omega t)}. \end{equation}
  
   Pela lei de Gauss nessas circunstânicas, $\vec{\nabla}\cdot\vec{E}=0$, assim, inserindo a solução para a onda plana na mesma, obtém-se:
+  
+  \begin{matrix}
+   \scriptsize{0=\vec{\nabla}\cdot\left(\vec{E_0} e^{i(\vec{k}\cdot\vec{r}-\omega t)} \right ) & \sum_i \frac{\partial}{\partial x_i} E_{0i} e^{i(\sum_l k_l x_l-\omega t)} & \sum_i  E_{0i} \frac{\partial}{\partial x_i}  e^{i(\sum_l k_l x_l-\omega t)} 
+   \\ \sum_i E_{0i} \left(\sum_l ik_l \frac{\partial x_l}{\partial x_i}\quad e^{i(\sum_l k_l x_l-\omega t)} \right ) & \sum_i E_{0i} \left(\sum_l ik_l \delta_{il} e^{i(\vec{k}\cdot\vec{r}-\omega t)} \right) & \sum_i E_{0i} \left(\sum_l ik_l \delta_{il} e^{i(\vec{k}\cdot\vec{r}-\omega t)} \right) 
+  \end{matrix}
+  
+  
  
  \begin{equation} \scriptsize{0=\vec{\nabla}\cdot\left(\vec{E_0} e^{i(\vec{k}\cdot\vec{r}-\omega t)} \right ) = \sum_i \frac{\partial}{\partial x_i} E_{0i} e^{i(\sum_l k_l x_l-\omega t)}=\sum_i  E_{0i} \frac{\partial}{\partial x_i}  e^{i(\sum_l k_l x_l-\omega t)}} \end{equation}
  
