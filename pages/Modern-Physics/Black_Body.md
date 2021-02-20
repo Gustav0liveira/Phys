@@ -127,7 +127,7 @@ Imaginando que o corpo negro transmita sua radiação eletromagnética por meio 
   <summary>{% include important.html content="\vec{B} = \frac{1}{ck}\vec{K}\times\vec{E} é facilmente obtido na forma: (clique aqui)" %} </summary>
   {% include note.html content="
   
-  
+  sss
 " %}
 </details>
 
@@ -147,7 +147,7 @@ Imaginando que o corpo negro transmita sua radiação eletromagnética por meio 
   <summary>{% include important.html content=Tais expressões podem ser verificadas da forma: (clique aqui)" %} </summary>
   {% include note.html content="
   
-  
+  ss
 " %}
 </details>
 
