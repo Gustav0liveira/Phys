@@ -79,9 +79,9 @@ Seja a expressão para a densidade de enegia eletromagnética volumétrica $u$
  
  
 
-além da do fluxo de densidade de momento campo eletromagnético $\vec{P}$
+além da do fluxo de densidade de momento campo eletromagnético $\vec{p}$
 
-\begin{equation} \vec{P}=\epsilon_0\left(\vec{E}\times\vec{B}\right)\end{equation}
+\begin{equation} \vec{p}=\epsilon_0\left(\vec{E}\times\vec{B}\right)\end{equation}
 
 
 
