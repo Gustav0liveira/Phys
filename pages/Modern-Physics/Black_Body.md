@@ -122,6 +122,31 @@ Imaginando que o corpo negro transmita sua radiação eletromagnética por meio 
 
 
 
+<details>
+  <summary>{% include important.html content="$\vec{B} = \frac{1}{ck}\vec{K}\times\vec{E}$ é facilmente obtido na forma: (clique aqui)" %} </summary>
+  {% include note.html content="
+ $\vec{F}$
+" %}
+</details>
+
+
+
+
+
+
+É possível mostrar que a densidade de energia $u$ e de momento $\vec{p}$ das ondas planas são dadas por
+
+
+\begin{equation} u = \epsilon_0 E^2 \quad \quad e \quad \quad \vec{p}=\frac{\epsilon_0}{c}E^2 \hat{k} \end{equation}
+
+
+
+<details>
+  <summary>{% include important.html content="Tais expressões podem ser verificadas da forma (clique aqui)" %} </summary>
+  {% include note.html content="
+   $\vec{F}$
+" %}
+</details>
 
 
 
