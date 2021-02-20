@@ -20,14 +20,17 @@ A primeira conjectura quantitativa com relação o comportamento de um corpo neg
 
 onde $\sigma = 5{,}67\times10^{-8} \frac{W}{m^2 K^4}$ e $j(T)$ é a desnidade de energia total radiada a partir de um metro quadro da superfície a uma temperatura $T$.
 
-Tal expressão foi novamente deduzida em $1884$ por Ludwig Boltzmann utilizando os seguintes argumentos clássicos:
+Tal expressão foi novamente deduzida em $1884$ por Ludwig Boltzmann utilizando ao analisar as grandezas termodinâmicas associadas ao campo eletromagnético.
 
-Sejam as expressões para a densidade de enegia eletromagnética volumétrica $u$ e o vetor de Poyting $\vec{S}$,
+Seja a expressão para a densidade de enegia eletromagnética volumétrica $u$
 
-\begin{equation} u = \frac{\epsilon_0}{2}\left(E^2+c^2B^2\right) \quad\quad e \quad\quad \vec{S}= \frac{1}{\mu_0}\left(\vec{E}\times\vec{B}\right) \end{equation}
+\begin{equation} u = \frac{\epsilon_0}{2}\left(E^2+c^2B^2\right) \end{equation}
+
+
+
 
 <details>  
-<summary>{% include important.html content="$u$ e $\vec{S}$ podem ser deduzidos pelo teorema de Poynting da seguinte forma (clique aqui)" %} </summary>  {% include note.html content="
+<summary>{% include important.html content="$u$ pode ser deduzidos pelo teorema de Poynting da seguinte forma (clique aqui)" %} </summary>  {% include note.html content="
   Seja o trabalho realizada pela força de lorentz
 
   \begin{equation} dW=\vec{F}\cdot d\vec{l} = q\left(\vec{E}+\vec{v}\times\vec{B}\right)\cdot\vec{v}dt= q\vec{E}\cdot\vec{v}dt \end{equation}
@@ -56,34 +59,31 @@ Sejam as expressões para a densidade de enegia eletromagnética volumétrica $u
 
   Seja ainda,  $\vec{B}\cdot\frac{\partial \vec{B}}{\partial t}=\frac{1}{2}\frac{\partial}{\partial t}B^2 $ e $ \vec{E}\cdot\frac{\partial \vec{E}}{\partial t}=\frac{1}{2}\frac{\partial}{\partial t}E^2$, temos que
 
-
-
   \begin{equation}\vec{E}\cdot\vec{J}=-\frac{\epsilon_0}{2}\left(E^2+c^2B^2\right)-\frac{1}{\mu_0}\vec{\nabla}\cdot(\vec{E}\times\vec{B}) \end{equation}
-
-
+  
   Integrando a última expressão sobre todo o espaço temos a expressão para a potência $\frac{dW}{dt}$ transferida pela força eletromagnética, que tem a forma:
-
 
   \begin{equation}\scriptsize{\frac{dW}{dt}=-\frac{d}{dt}\int_V d^3r \frac{\epsilon_0}{2}(E^2+c^2B^2)-\int_V d^3r \frac{1}{\mu_0}\vec{\nabla}\cdot(\vec{E}\times\vec{B})} \end{equation}
 
-
   \begin{equation} \small{-\dfrac{d}{dt}\displaystyle\int_V d^3r \frac{\epsilon_0}{2}(E^2+c^2B^2)-\oint_S \frac{1}{\mu_0}(\vec{E}\times\vec{B})\cdot\hat{n} d^2r} \end{equation}
-
-
+  
   Ou ainda
-
-
+  
   \begin{equation}\frac{dW}{dt}=-\frac{d}{dt} \int_V u d^3r-\oint_S \vec{S}\cdot\hat{n} d^2r \end{equation}
-
-
+  
   Onde  $u=\frac{\epsilon_0}{2}(E^2+c^2B^2)$  e $\vec{S}=\frac{1}{\mu_0}(\vec{E}\times\vec{B})$, constituindo a teorema de Poyting que correlaciona a densidade energia do campo eletromagnético  $u$ com o fluxo do vetor de poyting  $\vec{S}$.
 
   " %}
   </details>
+  
+ 
+ 
 
-Além a do fluxo de densidade de momento campo eletromagnético $\vec{P}$
+além da do fluxo de densidade de momento campo eletromagnético $\vec{P}$
 
 \begin{equation} \vec{P}=\epsilon_0\left(\vec{E}\times\vec{B}\right)\end{equation}
+
+
 
 <details>
   <summary>{% include important.html content="$\vec{P}$ pode ser deduzido na forma (clique aqui)" %} </summary>
@@ -92,7 +92,7 @@ Seja,
 
 Para  $q \rightarrow \int_V \rho d^3r$, temos que a expressão anterior pode ser reescrita da forma
 
- $$ \frac{d}{dt}\vec{P_Mec}= \int_V \rho \left(\vec{E}+\vec{v}\times\vec{B} \right)d^3r= \int_V \left(\rho\vec{E}+\vec{J}\times\vec{B} \right)d^3r $$
+ \begin{equation} \frac{d}{dt}\vec{P_Mec}= \int_V \rho \left(\vec{E}+\vec{v}\times\vec{B} \right)d^3r= \int_V \left(\rho\vec{E}+\vec{J}\times\vec{B} \right)d^3r \end{equation}
 
  Onde  $ P_{Mec} $ é o momento total do sistema. Através das equações de maxwell,  $\rho=\epsilon_0\vec{\nabla}\vec{E}$ e  $\vec{J}=\frac{1}{\mu_0} (\vec{\nabla}\times\vec{B})-\epsilon_0\frac{\partial \vec{E}}{\partial t}$ é possível reescrever a expressão  $\rho\vec{E}+\vec{J}\vec{B}$ na forma:
 
@@ -104,7 +104,6 @@ Para  $q \rightarrow \int_V \rho d^3r$, temos que a expressão anterior pode ser
  \begin{equation} \rho\vec{E}+\vec{J}\vec{B}=\epsilon_0 \left(\vec{E}(\vec{\nabla}\cdot\vec{E})+c^2\vec{B}(\vec{\nabla}\cdot\vec{B}) \right)+\epsilon_0\vec{E}\times\frac{\partial \vec{B}}{\partial t} \end{equation}
  $$- \epsilon_0\frac{\partial}{\partial t}(\vec{E}\times\vec{B})-\epsilon_0 c^2\vec{B}\times(\vec{\nabla}\times\vec{B}) $$
  
-
 Temos que,
 
  \begin{equation} \frac{d}{dt}\vec{P_{Mec}}+\frac{d}{dt} \int_V \epsilon_0(\vec{E}\times\vec{B})d^3r \end{equation} 
@@ -113,9 +112,52 @@ Temos que,
  
  Possibilitando identificar o momento do campo eletromagnético como  $\vec{P_{Campo}}= \int_V \vec{p} d^3r $ onde  $\vec{p}=\epsilon_0(\vec{E}\times\vec{B})$ é a densidade de momento do campo eletromagnético.
  
-
 " %}
 </details>
+
+
+
+
+Imaginando que o corpo negro transmita sua radiação eletromagnética por meio de ondas planas (na direção $\vec{k}$), onde o campo magnético fica definido em termos do campo elétrico através da relação $\vec{B} = \frac{1}{ck}\vec{K}\times\vec{E}$
+
+
+
+
+<details>
+  <summary>{% include important.html content="\vec{B} = \frac{1}{ck}\vec{K}\times\vec{E} é facilmente obtido na forma: (clique aqui)" %} </summary>
+  {% include note.html content="
+  
+  
+" %}
+</details>
+
+
+
+
+
+
+É possível mostrar que a densidade de energia $u$ e de momento $\vec{p_v}$ das ondas planas são dadas por
+
+
+\begin{equation} u = \epsilon_0 E^2 \quad \quad e \quad \quad \vec{p}=\frac{\epsilon_0}{c}E^2 \hat{k} \end{equation}
+
+
+
+<details>
+  <summary>{% include important.html content=Tais expressões podem ser verificadas da forma: (clique aqui)" %} </summary>
+  {% include note.html content="
+  
+  
+" %}
+</details>
+
+
+
+
+
+
+
+\begin{equation} \end{equation}
 
 
 
