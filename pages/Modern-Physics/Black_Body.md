@@ -148,7 +148,7 @@ Imaginando que o corpo negro transmita sua radiação eletromagnética por meio 
 " %}
 </details>
 
-revelando uma conecção entre $u$ e $|\vec{p_v}|$ a partir da expressão
+revelando uma conexão entre $u$ e $p_v$ a partir da expressão
 
 \begin{equation} $p_v$=\frac{\epsilon_0}{c}E^2=\frac{1}{c}\left(\epsilon_0 E^2\right)=\frac{u}{c} \end{equation}
 
