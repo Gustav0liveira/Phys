@@ -94,7 +94,7 @@ Seja,
 
 Para  $q \rightarrow \int_V \rho d^3r$, temos que a expressão anterior pode ser reescrita da forma
 
- \begin{equation} \frac{d}{dt} \vec{P}_{Mec} = \int_V \rho \left(\vec{E}+\vec{v}\times\vec{B} \right)d^3r= \int_V \left(\rho\vec{E}+\vec{J}\times\vec{B} \right)d^3r \end{equation}
+ \begin{equation} \frac{d}{dt}\vec{P}_{Mec}= \int_V \rho \left(\vec{E}+\vec{v}\times\vec{B} \right)d^3r= \int_V \left(\rho\vec{E}+\vec{J}\times\vec{B} \right)d^3r \end{equation}
 
  Onde  $ P_{Mec} $ é o momento total do sistema. Através das equações de maxwell,  $\rho=\epsilon_0\vec{\nabla}\vec{E}$ e  $\vec{J}=\frac{1}{\mu_0} (\vec{\nabla}\times\vec{B})-\epsilon_0\frac{\partial \vec{E}}{\partial t}$ é possível reescrever a expressão  $\rho\vec{E}+\vec{J}\vec{B}$ na forma:
 
@@ -102,11 +102,11 @@ Para  $q \rightarrow \int_V \rho d^3r$, temos que a expressão anterior pode ser
 
  Para  $\vec{B}\times\dfrac{\partial \vec{E}}{\partial t}=\dfrac{\partial}{\partial t}(\vec{E}\times\vec{B})+\vec{E}\times\dfrac{\partial \vec{B}}{\partial t}$, temos que a última expressão também pode ser reconhecida como:
 
- \begin{matrix}\rho\vec{E}+\vec{J}\vec{B}=\epsilon_0 \left[\vec{E}(\vec{\nabla}\cdot\vec{E})+c^2\vec{B}(\vec{\nabla}\cdot\vec{B}) \right]+\epsilon_0\vec{E}\times\frac{\partial \vec{B}}{\partial t} \\- \epsilon_0\frac{\partial}{\partial t}(\vec{E}\times\vec{B})-\epsilon_0 c^2\vec{B}\times(\vec{\nabla}\times\vec{B}) \end{matrix}
+ \begin{matrix} \rho\vec{E}+\vec{J}\vec{B}=\epsilon_0 \left((\vec{E}(\vec{\nabla}\cdot\vec{E})+c^2\vec{B}(\vec{\nabla}\cdot\vec{B) \right)+\epsilon_0\vec{E}\times\frac{\partial \vec{B}}{\partial t} \\- \epsilon_0\frac{\partial}{\partial t}(\vec{E}\times\vec{B})-\epsilon_0 c^2\vec{B}\times(\vec{\nabla}\times\vec{B}) \end{matrix}
 
 Temos que,
 
- \begin{matrix}\frac{d}{dt}\vec{P}_{Mec}+\frac{d}{dt} \int_V \epsilon_0(\vec{E}\times\vec{B})dV \\=\epsilon_0\displaystyle \int_V \left[\vec{E}\cdot(\vec{\nabla}\cdot\vec{E})+c^2\vec{B}\cdot(\vec{\nabla}\cdot\vec{B})+\vec{E}\times\frac{\partial\vec{B}}{\partial t}-c^2\vec{B}(\vec{\nabla}\times\vec{B}) \right ]d^3r \end{matrix}
+ \begin{matrix}\frac{d}{dt}\vec{P}_{Mec}+\frac{d}{dt} \int_V \epsilon_0(\vec{E}\times\vec{B})dV \\=\epsilon_0\displaystyle \int_V \left(\vec{E}\cdot(\vec{\nabla}\cdot\vec{E})+c^2\vec{B}\cdot(\vec{\nabla}\cdot\vec{B})+\vec{E}\times\frac{\partial\vec{B}}{\partial t}-c^2\vec{B}(\vec{\nabla}\times\vec{B}) \right)d^3r \end{matrix}
 
 Possibilitando identificar o momento do campo eletromagnético como  $\vec{P}_{Campo}= \displaystyle \iiint{\vec{p}}d^3$ onde  $\vec{p}=\epsilon_0(\vec{E}\times\vec{B})$ é a densidade de momento do campo eletromagnético.
 
