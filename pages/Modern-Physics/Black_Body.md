@@ -106,7 +106,9 @@ Para  $q \rightarrow \int_V \rho d^3r$, temos que a expressão anterior pode ser
 
 Temos que,
 
- \begin{matrix} d/dt\vec{P_{Mec}}+d/dt \int_V \epsilon_0(\vec{E}\times\vec{B})d^3r \\ =\epsilon_0 \int_V \left(\vec{E}\cdot(\vec{\nabla}\cdot\vec{E})+c^2\vec{B}\cdot(\vec{\nabla}\cdot\vec{B})+\vec{E}\times\frac{\partial}{\partial t}\vec{B}-c^2\vec{B}(\vec{\nabla}\times\vec{B}) \right)d^3r \end{matrix}
+ \begin{equation} \frac{d}{dt}\vec{P_{Mec}}+\frac{d}{dt} \int_V \epsilon_0(\vec{E}\times\vec{B})d^3r \end{equation} 
+ 
+ \begin{equation} =\epsilon_0 \int_V \left(\vec{E}\cdot(\vec{\nabla}\cdot\vec{E})+c^2\vec{B}\cdot(\vec{\nabla}\cdot\vec{B})+\vec{E}\times\frac{\partial}{\partial t}\vec{B}-c^2\vec{B}(\vec{\nabla}\times\vec{B}) \right)d^3r \end{equation}
  
  Possibilitando identificar o momento do campo eletromagnético como  $\vec{P}_{Campo}= \int_V \vec{p} d^3r $ onde  $\vec{p}=\epsilon_0(\vec{E}\times\vec{B})$ é a densidade de momento do campo eletromagnético.
 
