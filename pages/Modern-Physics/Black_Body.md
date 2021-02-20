@@ -81,7 +81,7 @@ Sejam as expressões para a densidade de enegia eletromagnética volumétrica $u
   " %}
   </details>
 
-Outra quantidade é o fluxo da densidade de momento campo eletromagnético
+Outra quantidade associada é o fluxo da densidade de momento campo eletromagnético
 
 \begin{equation} \vec{P}=\epsilon_0\left(\vec{E}\times\vec{B}\right)\end{equation}
 
@@ -94,7 +94,7 @@ Seja,
 
 Para  $q \rightarrow \int_V \rho d^3r$, temos que a expressão anterior pode ser reescrita da forma
 
- \begin{equation} \frac{d}{dt}\vec{P}_{Mec}= \int_V{ \rho \left(\vec{E}+\vec{v}\times\vec{B} \right )d^3r}= \int_V \left(\rho\vec{E}+\vec{J}\times\vec{B} \right)d^3r \end{equation}
+ \begin{equation} \frac{d}{dt} \vec{P}_{Mec} = \int_V \rho \left(\vec{E}+\vec{v}\times\vec{B} \right)d^3r= \int_V \left(\rho\vec{E}+\vec{J}\times\vec{B} \right)d^3r \end{equation}
 
  Onde  $ P_{Mec} $ é o momento total do sistema. Através das equações de maxwell,  $\rho=\epsilon_0\vec{\nabla}\vec{E}$ e  $\vec{J}=\frac{1}{\mu_0} (\vec{\nabla}\times\vec{B})-\epsilon_0\frac{\partial \vec{E}}{\partial t}$ é possível reescrever a expressão  $\rho\vec{E}+\vec{J}\vec{B}$ na forma:
 
