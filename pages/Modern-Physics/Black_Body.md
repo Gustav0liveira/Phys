@@ -127,7 +127,7 @@ Imaginando que o corpo negro transmita sua radiação eletromagnética por meio 
   {% include note.html content="
     No vácuo, onde não há fontes de cargas nem de correntes, as equações de Maxwell podem ser mostradas a satisfazer as equações de onda
   
-  \begin{matrix} \nabla^2 \vec{E} = \frac{1}{c^2} \frac{\partial^2 \vec{E}}{\partial t^2} // \nabla^2 \vec{B} = \frac{1}{c^2} \frac{\partial^2 \vec{B}}{\partial t^2} \end{matrix}
+  \begin{matrix} \nabla^2 \vec{E} = \frac{1}{c^2} \frac{\partial^2 \vec{E}}{\partial t^2} \\ \nabla^2 \vec{B} = \frac{1}{c^2} \frac{\partial^2 \vec{B}}{\partial t^2} \end{matrix}
   
   que possuem como solução
   
@@ -135,9 +135,9 @@ Imaginando que o corpo negro transmita sua radiação eletromagnética por meio 
  
  Como não há fonte de carga, pela lei de Gauss, $\vec{\nabla}\cdot\vec{E}=0$, assim, inserindo a solução para a onda plana na mesma, obtém-se:
  
- \begin{equation} \vec{\nabla}\cdot\vec{E} = \vec{\nabla}\cdot\left(\vec{E_0} e^{i(\vec{k}\cdot\vec{r}-\omega t)} \right ) = \sum_i \frac{\partial}{\partial x_i} E_{0i} e^{i(\sum_l k_l x_l-\omega t)}=\sum_i  E_{0i} \frac{\partial}{\partial x_i}  e^{i(\sum_l k_l x_l-\omega t)} \end{equation}
+ \begin{equation} \scriptsize{\vec{\nabla}\cdot\vec{E} = \vec{\nabla}\cdot\left(\vec{E_0} e^{i(\vec{k}\cdot\vec{r}-\omega t)} \right ) = \sum_i \frac{\partial}{\partial x_i} E_{0i} e^{i(\sum_l k_l x_l-\omega t)}=\sum_i  E_{0i} \frac{\partial}{\partial x_i}  e^{i(\sum_l k_l x_l-\omega t)}} \end{equation}
  
- \begi{equation} \scriptsize{\sum_i E_{0i} \left(\sum_l ik_l \frac{\partial x_l}{\partial x_i}\quad e^{i(\sum_l k_l x_l-\omega t)} \right )=\sum_i E_{0i} \left(\sum_l ik_l \delta_{il} e^{i(\vec{k}\cdot\vec{r}-\omega t)} \right)=\sum_i E_{0i} \left(ik_i e^{i(\vec{k}\cdot\vec{r}-\omega t)} \right) = i\vec{k}\cdot\vec{E_0}e^{i(\vec{k}\cdot\vec{r}-\omega t)}=i \vec{k}\cdot\vec{E}\end{equation}}
+ \begi{equation} \scriptsize{\sum_i E_{0i} \left(\sum_l ik_l \frac{\partial x_l}{\partial x_i}\quad e^{i(\sum_l k_l x_l-\omega t)} \right )=\sum_i E_{0i} \left(\sum_l ik_l \delta_{il} e^{i(\vec{k}\cdot\vec{r}-\omega t)} \right)=\sum_i E_{0i} \left(ik_i e^{i(\vec{k}\cdot\vec{r}-\omega t)} \right) = i\vec{k}\cdot\vec{E_0}e^{i(\vec{k}\cdot\vec{r}-\omega t)}=i \vec{k}\cdot\vec{E}} \end{equation}
  
 " %}
 </details>
