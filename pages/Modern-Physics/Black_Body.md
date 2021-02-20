@@ -207,9 +207,48 @@ De forma que definimos a pressão eletromagnética $P$ como
 
 \begin{equation} P = \frac{dF}{dA}=u\end{equation}.
 
-Mas como desenvolvemos quantidade escalares até o momento, e as três componentes da radiação eletromagnética tem o mesmo peso para a definição da pressão, temos que a mesma ao longo de uma direção ( de $\vec{k}$ por exemplo), deve ser dada por
+Mas como desenvolvido apenas quantidade escalares e as três componentes da radiação eletromagnética no interior de uma cavidade fechada tem o mesmo peso para a definição da pressão, temos que a mesma ao longo de uma direção ( de $\vec{k}$ por exemplo), deve ser dada por
 
-\begin{equation} P=\frac{1}{3}u \end{equation}
+\begin{equation} P=\frac{1}{3}u. \end{equation}
+
+Através da equação fundamental da termodinâmica
+
+\begin{equation} dU =TdS-PdV\end{equation},
+
+temos que para uma variação isotérmica a equação de estado deve ser expressa como,
+
+\begin{equation} \left(\frac{\partial U}{\partial V} \right)_T =T\left(\frac{\partial S}{\partial V}\right)_T -P. \end{equation}
+
+Com ajuda a relação de Maxwell $\left(\frac{\partial S}{\partial V}\right)_T = \left(\frac{\partial P}{\partial T}\right)_V$ e da relação volumétrica $U=u(T)V$, temos que
+
+\begin{equation} \frac{\partial}{\partial V}\left(uV\right)_T =T\left( \frac{\partial P}{\partial T}\right)_V - P. \end{equation}
+
+Logo,
+
+\begin{equation} u = T\frac{dP}{dT} - P. \end{equation}
+
+Das relações que deduzimos para ondas planas, $P=\frac{u}{3}$ e $dP=\frac{du}{3}$, é possível transformar a última expressão na seguinte forma
+
+\begin{equation} \frac{4}{3}u =\frac{T}{3}\frac{du}{dT}. \end{equation}
+
+Que pode ainda ser separada,
+
+\begin{equation} 4\frac{dT}{T}=\frac{du}{u} \implies d\left(4\ln T\right)=d\left(\ln u\right)\end{equation}
+
+e integrada para obter
+
+\begin{equation}\ln u =\ln T^4 + C, \end{equation}
+
+que é equivalente á
+
+\begin{equation} u(T)=\delta T^4\end{equation}
+
+
+
+
+
+
+
 
 \begin{equation} \end{equation}
 
