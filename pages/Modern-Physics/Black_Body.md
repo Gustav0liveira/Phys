@@ -11,8 +11,19 @@ summary: A Black Body can be understood as a.
 
 Um corpo negro é um modelo físico que representa a idealização de um objeto que absorve e reemite radiação eletromagnética de forma perfeita.
 
+### Corpo negro como uma cavidade
 
-### 1. Lei de Stefan-Boltzmann
+Talvez a melhor exemplificação de um corpo negro seja aquela amplamente utilizada nas primeiras inscursões da espectroscopia. A de um objeto material onde em seu interior exista uma cavidade de paredes foscas com um pequeno orifício conectando ao exterior, todo este aparato mantido a uma temperatura constante $T$.
+
+A parede interna, como um sistema macroscópico, devem ser composto a partir de um imensa quantidade de constituintes internos (da ordem de $10^{23}$ moléculas) dispostos relativamente fixos na estrutura molecular do material. 
+
+Aquecendo as paredes da cavidade a uma temperatura constante, é esperado a transferência de energia na forma de calor, incrementando a agitação molecular e excitando assim os seus constituintes microsópicos que devem responder vibrando em torno da sua posição de equilíbrio como um oscilador harmônico que experiencia uma força restauradora $-m\omega_0^2 x$.
+Tais constituintes: átomos, moléculas, íons, não são mais do que padrões complicados de constituintes mais elementares, eletricamente carregados. Por tanto, é esperado que quando acelerados, emitam energia para o interior da cavidade na forma de radiação eletromagnética, o que pode ser modelado por uma força dissipativa
+
+\begin{equation} \end{equation}
+
+
+### Lei de Stefan-Boltzmann
 
 A primeira conjectura quantitativa com relação o comportamento de um corpo negro, foi realizada em 1879 por Joseph Stefan na forma
 
@@ -252,18 +263,3 @@ que é equivalente á
 
 \begin{equation} \end{equation}
 
-
-
-
-
-
-### 2. Como Funciona $\vec{F}=m\vec{a}$
-
-If you've never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:
-
-*\[Install Jekyll on Mac]\[mydoc_install_jekyll_on_mac]
-*\[Install Jekyll on Windows]\[mydoc_install_jekyll_on_windows]
-
-### 3. Melhoras
-
-kjkj
