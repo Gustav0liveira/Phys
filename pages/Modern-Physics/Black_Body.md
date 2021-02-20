@@ -155,7 +155,7 @@ Imaginando que o corpo negro transmita sua radiação eletromagnética por meio 
 
 
 <details>
-  <summary>{% include important.html content="Tais expressões podem ser verificadas da forma (clique aqui)" %} </summary>
+  <summary>{% include important.html content="Tais expressões podem ser verificadas da seguinte maneira (clique aqui)" %} </summary>
   {% include note.html content="
    $\vec{F}$
 " %}
