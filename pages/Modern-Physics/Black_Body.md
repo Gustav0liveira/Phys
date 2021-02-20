@@ -9,7 +9,7 @@ summary: A Black Body can be understood as a.
 
 ## Introdução
 
-Um corpo negro pode ser entendendido como um objeto que absorve toda a radiação nele incidido.
+Um corpo negro é um modelo físico que representa a idealização de um objeto que absorve e reemite radiação eletromagnética de forma perfeita.
 
 
 ### 1. Lei de Stefan-Boltzmann
@@ -18,9 +18,9 @@ A primeira conjectura quantitativa com relação o comportamento de um corpo neg
 
 \begin{equation} j\left(T\right) = u/A = \sigma T^4 \end{equation},
 
-onde $\sigma = 5{,}67\times10^{-8} \frac{W}{m^2 K^4}$ e $j(T)$ é a desnidade de energia total radiada a partir de um metro quadro da superfície a uma temperatura $T$.
+onde $\sigma = 5{,}67\times10^{-8} \frac{W}{m^2 K^4}$ é a constante de Stefan-Boltzmann e e $j(T)$ é a densidade de energia radiada por metro quadrado de uma determinada superfície a uma temperatura $T$.
 
-Tal expressão foi novamente deduzida em $1884$ por Ludwig Boltzmann utilizando ao analisar as grandezas termodinâmicas associadas ao campo eletromagnético.
+Tal expressão foi novamente deduzida em $1884$ por Ludwig Boltzmann utilizando as grandezas termodinâmicas associadas as ondas eletromagnético emitidas por corpos negros.
 
 Seja a expressão para a densidade de enegia eletromagnética volumétrica $u$
 
@@ -30,7 +30,7 @@ Seja a expressão para a densidade de enegia eletromagnética volumétrica $u$
 
 
 <details>  
-<summary>{% include important.html content="$u$ pode ser deduzidos pelo teorema de Poynting da seguinte forma (clique aqui)" %} </summary>  {% include note.html content="
+<summary>{% include important.html content="$u$ pode ser deduzido pelo teorema de Poynting da seguinte forma (clique aqui)" %} </summary>  {% include note.html content="
   Seja o trabalho realizada pela força de lorentz
 
   \begin{equation} dW=\vec{F}\cdot d\vec{l} = q\left(\vec{E}+\vec{v}\times\vec{B}\right)\cdot\vec{v}dt= q\vec{E}\cdot\vec{v}dt \end{equation}
@@ -79,9 +79,9 @@ Seja a expressão para a densidade de enegia eletromagnética volumétrica $u$
  
  
 
-além da do fluxo de densidade de momento campo eletromagnético $\vec{p}$
+e a densidade volumétrica de momento linear do campo eletromagnético $\vec{p_v}$
 
-\begin{equation} \vec{p}=\epsilon_0\left(\vec{E}\times\vec{B}\right)\end{equation}
+\begin{equation} \vec{p_v}=\epsilon_0\left(\vec{E}\times\vec{B}\right)\end{equation}
 
 
 
@@ -110,7 +110,7 @@ Temos que,
  
  \begin{equation} =\epsilon_0 \int_V \left(\vec{E}\cdot(\vec{\nabla}\cdot\vec{E})+c^2\vec{B}\cdot(\vec{\nabla}\cdot\vec{B})+\vec{E}\times\frac{\partial}{\partial t}\vec{B}-c^2\vec{B}(\vec{\nabla}\times\vec{B}) \right)d^3r \end{equation}
  
- Possibilitando identificar o momento do campo eletromagnético como  $\vec{P_{Campo}}= \int_V \vec{p} d^3r $ onde  $\vec{p}=\epsilon_0(\vec{E}\times\vec{B})$ é a densidade de momento do campo eletromagnético.
+ Possibilitando identificar o momento do campo eletromagnético como  $\vec{P_{Campo}}= \int_V \vec{p_v} d^3r $ onde  $\vec{p_v}=\epsilon_0(\vec{E}\times\vec{B})$ é a densidade de momento do campo eletromagnético.
  
 " %}
 </details>
@@ -118,7 +118,7 @@ Temos que,
 
 
 
-Imaginando que o corpo negro transmita sua radiação eletromagnética por meio de ondas planas (na direção $\vec{k}$), onde o campo magnético fica definido em termos do campo elétrico através da relação $\vec{B} = \frac{1}{ck}\vec{K}\times\vec{E}$
+Imaginando que o corpo negro transmita sua radiação eletromagnética por meio de ondas planas (na direção $\vec{k}$), cujo campo magnético fica definido em termos do campo elétrico através da relação $\vec{B} = \frac{1}{ck}\vec{K}\times\vec{E}$
 
 
 
@@ -134,10 +134,10 @@ Imaginando que o corpo negro transmita sua radiação eletromagnética por meio 
 
 
 
-É possível mostrar que a densidade de energia $u$ e de momento $\vec{p}$ das ondas planas são dadas por
+É possível mostrar que a densidade de energia $u$ e de momento $\vec{p_v}$ das ondas planas são dadas por
 
 
-\begin{equation} u = \epsilon_0 E^2 \quad \quad e \quad \quad \vec{p}=\frac{\epsilon_0}{c}E^2 \hat{k} \end{equation}
+\begin{equation} u = \epsilon_0 E^2 \quad \quad e \quad \quad \vec{p_v}=\frac{\epsilon_0}{c}E^2 \hat{k} \end{equation}
 
 
 
@@ -147,6 +147,33 @@ Imaginando que o corpo negro transmita sua radiação eletromagnética por meio 
    $\vec{F}$
 " %}
 </details>
+
+revelando uma conecção entre $u$ e $|\vec{p_v}|$ a partir da expressão
+
+\begin{equation} $p_v$=\frac{\epsilon_0}{c}E^2=\frac{1}{c}\left(\epsilon_0 E^2\right)=\frac{u}{c} \end{equation}
+
+ou ainda
+
+\begin{equation} u = cp_v \end{equation}.
+
+Seja a contribuição infinitesima de momento $p$
+
+\begin{equation} dp = p_v dV = p_v dl dA = p_v (cdt)dA = (cp_v)dAdt \end{equation}
+
+logo
+
+\begin{equation} \frac{dp}{dt}=dF=(cp_v)dA=udA\end{equation}.
+
+De forma que definimos a pressão eletromagnética $P$ como
+
+
+\begin{equation} P = \frac{dF}{dA}=u\end{equation}.
+
+Mas como desenvolvemos quantidade escalares até o momento, e as três componentes da radiação eletromagnética tem o mesmo peso para a definição da pressão, temos que a mesma ao longo de uma direção ( de $\vec{k}$ por exemplo), deve ser dada por
+
+\begin{equation} P=\frac{1}{3}u \end{equation}
+
+\begin{equation} \end{equation}
 
 
 
