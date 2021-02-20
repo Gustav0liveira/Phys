@@ -81,7 +81,7 @@ Sejam as expressões para a densidade de enegia eletromagnética volumétrica $u
   " %}
   </details>
 
-Outra quantidade associada é o fluxo da densidade de momento campo eletromagnético
+Além a do fluxo de densidade de momento campo eletromagnético $\vec{P}$
 
 \begin{equation} \vec{P}=\epsilon_0\left(\vec{E}\times\vec{B}\right)\end{equation}
 
