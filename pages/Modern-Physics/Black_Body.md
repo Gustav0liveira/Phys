@@ -81,7 +81,7 @@ Seja a expressão para a densidade de enegia eletromagnética volumétrica $u$
 
 e a densidade volumétrica de momento linear do campo eletromagnético $\vec{p_v}$
 
-\begin{equation} \vec{p_v}=\epsilon_0\left(\vec{E}\times\vec{B}\right)\end{equation}
+\begin{equation} \vec{p_v}=\epsilon_0\left(\vec{E}\times\vec{B}\right).\end{equation}
 
 
 
@@ -118,14 +118,27 @@ Temos que,
 
 
 
-Imaginando que o corpo negro transmita sua radiação eletromagnética por meio de ondas planas (na direção $\vec{k}$), cujo campo magnético fica definido em termos do campo elétrico através da relação $\vec{B} = \frac{1}{ck}\vec{K}\times\vec{E}$
+Imaginando que o corpo negro transmita sua radiação eletromagnética por meio de ondas planas (na direção $\vec{k}$), cujo campo magnético fica definido em termos do campo elétrico através da relação $\vec{B} = \frac{1}{ck}\vec{K}\times\vec{E}$,
 
 
 
 <details>
-  <summary>{% include important.html content="$\vec{B} = \frac{1}{ck}\vec{K}\times\vec{E}$ é facilmente obtido na forma: (clique aqui)" %} </summary>
+  <summary>{% include important.html content="$\small{\vec{B} = \frac{1}{ck}\vec{K}\times\vec{E}}$ é facilmente obtido na forma: (clique aqui)" %} </summary>
   {% include note.html content="
- $\vec{F}$
+    No vácuo, onde não há fontes de cargas nem de correntes, as equações de Maxwell podem ser mostradas a satisfazer as equações de onda
+  
+  \begin{matrix} \nabla^2 \vec{E} = \frac{1}{c^2} \frac{\partial^2 \vec{E}}{\partial t^2} // \nabla^2 \vec{B} = \frac{1}{c^2} \frac{\partial^2 \vec{B}}{\partial t^2} \end{matrix}
+  
+  que possuem como solução
+  
+ \begin{equation} \vec{E}=\vec{E_0} e^{i(\vec{k}\cdot\vec{r}-\omega t)} \qquad \vec{B}=\vec{B_0} e^{i(\vec{k}\cdot\vec{r}-\omega t)}. \end{equation}
+ 
+ Como não há fonte de carga, pela lei de Gauss, $\vec{\nabla}\cdot\vec{E}=0$, assim, inserindo a solução para a onda plana na mesma, obtém-se:
+ 
+ \begin{equation} \vec{\nabla}\cdot\vec{E} = \vec{\nabla}\cdot\left(\vec{E_0} e^{i(\vec{k}\cdot\vec{r}-\omega t)} \right ) = \sum_i \frac{\partial}{\partial x_i} E_{0i} e^{i(\sum_l k_l x_l-\omega t)}=\sum_i  E_{0i} \frac{\partial}{\partial x_i}  e^{i(\sum_l k_l x_l-\omega t)} \end{equation}
+ 
+ \begi{equation} \footsize{\sum_i E_{0i} \left(\sum_l ik_l \frac{\partial x_l}{\partial x_i}\quad e^{i(\sum_l k_l x_l-\omega t)} \right )=\sum_i E_{0i} \left(\sum_l ik_l \delta_{il} e^{i(\vec{k}\cdot\vec{r}-\omega t)} \right)=\sum_i E_{0i} \left(ik_i e^{i(\vec{k}\cdot\vec{r}-\omega t)} \right) = i\vec{k}\cdot\vec{E_0}e^{i(\vec{k}\cdot\vec{r}-\omega t)}=i \vec{k}\cdot\vec{E}\end{equation}}
+ 
 " %}
 </details>
 
@@ -134,7 +147,7 @@ Imaginando que o corpo negro transmita sua radiação eletromagnética por meio 
 
 
 
-É possível mostrar que a densidade de energia $u$ e de momento $\vec{p_v}$ das ondas planas são dadas por
+é possível mostrar que a densidade de energia $u$ e de momento $\vec{p_v}$ das ondas planas são dadas por
 
 
 \begin{equation} u = \epsilon_0 E^2 \quad \quad e \quad \quad \vec{p_v}=\frac{\epsilon_0}{c}E^2 \hat{k} \end{equation}
@@ -150,13 +163,13 @@ Imaginando que o corpo negro transmita sua radiação eletromagnética por meio 
 
 revelando uma conexão entre $u$ e $p_v$ a partir da expressão
 
-\begin{equation} $p_v$=\frac{\epsilon_0}{c}E^2=\frac{1}{c}\left(\epsilon_0 E^2\right)=\frac{u}{c} \end{equation}
+\begin{equation} p_v=\frac{\epsilon_0}{c}E^2=\frac{1}{c}\left(\epsilon_0 E^2\right)=\frac{u}{c} \end{equation}
 
 ou ainda
 
-\begin{equation} u = cp_v \end{equation}.
+\begin{equation} u = cp_v. \end{equation}
 
-Seja a contribuição infinitesima de momento $p$
+Seja a contribuição infinitesimal do momento $p$
 
 \begin{equation} dp = p_v dV = p_v dl dA = p_v (cdt)dA = (cp_v)dAdt \end{equation}
 
