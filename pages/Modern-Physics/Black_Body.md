@@ -13,9 +13,22 @@ Um corpo negro é um modelo físico que representa a idealização de um objeto 
 
 ### Corpo negro como uma cavidade
 
-Talvez a melhor exemplificação de um corpo negro seja a de um objeto material onde em seu interior exista uma cavidade de paredes foscas com um pequeno orifício conectando ao exterior, todo este aparato mantido a uma temperatura constante $T$.
+Talvez a melhor exemplificação de um corpo negro seja a de um objeto material onde em seu interior exista uma cavidade de paredes foscas com um pequeno orifício conectando ao exterior.
 
-A parede interna, como um sistema macroscópico, deve ser composto a partir de um imensa quantidade de constituintes internos (da ordem de $10^{23}$ moléculas) dispostos relativamente fixos na estrutura molecular do material. Dessa forma, aquecendo as paredes da cavidade a uma temperatura constante, é esperado a transferência de energia na forma de calor, incrementando a agitação molecular e excitando assim os seus constituintes microsópicos, que devem responder vibrando em torno das suas posições de equilíbrio como um oscilador harmônico que experiencia uma força restauradora $-m\omega_0^2 x$.
+A parede interna como um sistema macroscópico, é composto a partir de um grande número de átomos, todos dispostos de forma que seus constituintes internos positivamente carregados no núcleo permaneçam relativamente fixos na estrutura molecular, enquanto seus elétrons, negativamente carregados, se concentrem na vizinhança imediata deste último, em primeira ordem, sob a ação de uma força restaurada $-m\omega_0^2 x$ devido as forças internas de coesão.
+
+Aquecendo a configuração a uma temperatura constante $T$, conforme é transferido energia na forma de calor para parede e a agitação molecular é incrementanda na forma de vibração, os seus átomos, que são nada mais que padrões complicados de seus constituintes eletricamente carregados, devem ser excitandos e em resposta, como cargas elétricas aceleradas, emitir radiação eletromagnética, preenchendo assim cavidade interna com ondas eletromagnéticas.
+Essa emissão de radiação pode ser levada em conta por uma força dissipativa
+
+\begin{equation} -\frac{2e^2}{3c^2} \dot{a}\end{equation}
+
+também chamada de força de Abraham-Lorentz, que é a força experienciada por partículas pontuais eletricamente carregadas quando aceleradadas. 
+
+Tal radiação eletromagnética no interior da cavidade, caracterizada por superposições de ondas planas de várias frequências $\omega $ e cuja a intensidade do campo elétrico varia harmonicamente com o tempo, deve mediar nos elétrons dos átomos da parede uma força elétrica periódica -eE. Tais elétrons, por estar sob ação de uma força restauradora de frequência natural de oscilação $\omega_0$, quando forçados a oscilar na frequência das ondas planas $\omega$ devem responder com a emissão de radiação na mesma frequência, e portanto, o termo dissipativo pode ser simplificado para a forma:
+
+\begin{equation} -\frac{2e^2}{3c^2}=-\frac{2e^2}{3c^2} \omega \dot{x}\end{equation}
+
+A parede interna, como um sistema macroscópico é composto da ordem de $10^{23}$ átomos dispostos relativamente fixos na estrutura molecular do material. Dessa forma, aquecendo as paredes da cavidade a uma temperatura constante, é esperado a transferência de energia na forma de calor, incrementando a agitação molecular e excitando assim os seus constituintes microsópicos, que devem responder vibrando em torno das suas posições de equilíbrio como um oscilador harmônico que experiencia uma força restauradora $-m\omega_0^2 x$.
 
 Tais constituintes: átomos, moléculas, íons, não são mais do que padrões complicados de constituintes mais elementares, eletricamente carregados. Por tanto, é esperado que quando acelerados, emitam energia para o interior da cavidade na forma de radiação eletromagnética, o que pode ser modelado por uma força dissipativa
 
