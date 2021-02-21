@@ -36,7 +36,11 @@ que é caracterizada pela solução complexa,
 
 \equation{equation} z(t) = e^{\frac{\gamma}{2m}t}[Ae^{i\omega t}+Be^{-i\omega t}] + \frac{eE}{m\left((\omega_0^2-\omega^2)-\frac{i\omega\gamma}{m}\right)} e^{i\omega t}.\end{equation}
 
-Como a cavidade providencia as condições de um sistema isolado, tal comportamento se extende até sistema atingir uma situação de equilíbrio em que a taxa de emissão de energia por parte desses osciladores microscópicos é a mesma que a taxa de absorção. 
+onde $\gamma = \frac{2e^2}{3c^3}$.
+
+Como a cavidade providencia as condições de um sistema isolado, tal comportamento se extende até sistema atingir uma situação de equilíbrio em que a taxa de emissão de energia por parte desses osciladores microscópicos é a mesma que a taxa de absorção. Logo, o sistema deve a longo prazo exibir o comportamento não-transiente, que é a parte real da solução particular
+
+\begin{equation} x(t) =\frac{eE}{m\left((\omega_0^2-\omega^2)-\frac{i\omega\gamma}{m}\right)} e^{i\omega t}. \end{equation}
 
 
 ### Lei de Stefan-Boltzmann
