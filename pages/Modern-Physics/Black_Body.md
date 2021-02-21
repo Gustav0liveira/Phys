@@ -26,15 +26,15 @@ também chamada de força de Abraham-Lorentz, que é a força experienciada por 
 
 Tal radiação eletromagnética no interior da cavidade, caracterizada por superposições de ondas planas de várias frequências $\omega $ e cuja a intensidade do campo elétrico varia harmonicamente com o tempo, deve mediar nos elétrons dos átomos da parede uma força elétrica periódica $eEc\cos(\omega t)$. Tais elétrons, por estarem sob ação de uma força restauradora de frequência natural de oscilação $\omega_0$, quando forçados a oscilar na frequência das ondas planas $\omega$ devem responder com a emissão de radiação na mesma frequência, e portanto, o termo dissipativo pode ser simplificado para a forma:
 
-\begin{equation} -\frac{2e^2}{3c^3}\dot{a}=\frac{2e^2}{3c^3}\omega^2 \dot{x}\end{equation}
+\begin{equation} -\frac{2e^2}{3c^3}\left(-\omega^2 \dot{x}\right)=\frac{2e^2}{3c^3}\dot{x}\end{equation}
 
 Assim, individualmente, os elétrons na parede devem se comportar como pequenos osciladores forçados pelo campo elétrico e amortecidos pela emissão de radiação na forma da equação diferencial ordinária não-homegênea 
 
-\begin{equation} m\ddot{x} -\frac{2e^2}{3c^3} + m\omega_0^2x = eE\cos(\omega t), \end{equation}
+\begin{equation} m\ddot{x} -\frac{2e^2}{3c^3}\dot{x} + m\omega_0^2x = eE\cos(\omega t), \end{equation}
 
-que é caracterizada pela solução complexa
+que é caracterizada pela solução complexa,
 
-\equation{equation} z(t) = e^{\frac{\gamma}{2m}t}\[Ae^{i\omega t}+Be^{-i\omega t}] + \frac{eE}{m\left((\omega_0^2-\omega^2)-\frac{i\omega\gamma}{m}\righte^{i\omega t}end{equation}
+\equation{equation} z(t) = e^{\frac{\gamma}{2m}t}\[Ae^{i\omega t}+Be^{-i\omega t}] + \frac{eE}{m\left((\omega_0^2-\omega^2)-\frac{i\omega\gamma}{m}\right)} e^{i\omega t}.\end{equation}
 
 Como a cavidade providencia as condições de um sistema isolado, tal comportamento se extende até sistema atingir uma situação de equilíbrio em que a taxa de emissão de energia por parte desses osciladores microscópicos é a mesma que a taxa de absorção. 
 
