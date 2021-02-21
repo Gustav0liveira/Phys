@@ -34,7 +34,7 @@ Assim, individualmente, os elétrons na parede devem se comportar como pequenos 
 
 que é caracterizada pela solução complexa,
 
-\equation{equation} z(t) = e^{\frac{\gamma}{2m}t}[Ae^{i\omega t}+Be^{-i\omega t}] + \frac{eE}{m\left((\omega_0^2-\omega^2)-\frac{i\omega\gamma}{m}\right)} e^{i\omega t}.\end{equation}
+\begin{equation} z(t) = e^{\frac{\gamma}{2m}t}[Ae^{i\omega t}+Be^{-i\omega t}] + \frac{eE}{m\left((\omega_0^2-\omega^2)-\frac{i\omega\gamma}{m}\right)} e^{i\omega t}.\end{equation}
 
 onde $\gamma = \frac{2e^2}{3c^3}$.
 
