@@ -44,7 +44,7 @@ Como a cavidade providencia as condições de um sistema isolado, tal comportame
 
 
 <details>
-  <summary>{% include important.html content=" Seja a expressão para a energia de um oscilador individual (Clique Aqui):\begin{equation}\large{u = \frac{1}{2}m\omega_0 A^2}\end{equation}" %} </summary>
+  <summary>{% include important.html content=" Seja a expressão para a energia de um oscilador individual (Clique Aqui):\begin{equation} u = \frac{1}{2}m\omega_0 A^2\end{equation}" %} </summary>
   {% include note.html content="
    Seja a energia de um oscilador harmônico
 
@@ -70,15 +70,11 @@ onde $\sigma = 5{,}67\times10^{-8} \frac{W}{m^2 K^4}$ é a constante de Stefan-B
 
 Tal expressão foi novamente deduzida em $1884$ por Ludwig Boltzmann utilizando as grandezas termodinâmicas associadas as ondas eletromagnético emitidas por corpos negros.
 
-Seja a expressão para a densidade de enegia eletromagnética volumétrica $u$
-
-\begin{equation} u = \frac{\epsilon_0}{2}\left(E^2+c^2B^2\right) \end{equation}
-
-
-
 
 <details>  
-<summary>{% include important.html content="$u$ pode ser deduzido pelo teorema de Poynting da seguinte forma (clique aqui)" %} </summary>  {% include note.html content="
+<summary>{% include important.html content="Seja a expressão para a densidade de enegia eletromagnética volumétrica $u$ (clique aqui)
+
+\begin{equation} u = \frac{\epsilon_0}{2}\left(E^2+c^2B^2\right) \end{equation} " %} </summary>  {% include note.html content="
   Seja o trabalho realizada pela força de lorentz
 
   \begin{equation} dW=\vec{F}\cdot d\vec{l} = q\left(\vec{E}+\vec{v}\times\vec{B}\right)\cdot\vec{v}dt= q\vec{E}\cdot\vec{v}dt \end{equation}
@@ -134,7 +130,7 @@ Seja a expressão para a densidade de enegia eletromagnética volumétrica $u$
 <details>
   <summary>{% include important.html content="e a densidade volumétrica de momento linear do campo eletromagnético $\vec{p_v}$
 
-\begin{equation} \large{\vec{p_v}=\epsilon_0\left(\vec{E}\times\vec{B}\right)}.\end{equation}" %} </summary>
+\begin{equation} \vec{p_v}=\epsilon_0\left(\vec{E}\times\vec{B}\right).\end{equation}" %} </summary>
   {% include note.html content="
 Seja,
 
@@ -214,7 +210,7 @@ Temos que,
 <details>
   <summary>{% include important.html content="é possível mostrar que a densidade de energia $u$ e de momento $\vec{p_v}$ das ondas planas são dadas por (clique aqui):
 
-\begin{equation} \large{u = \epsilon_0 E^2 \quad \quad e \quad \quad \vec{p_v}=\frac{\epsilon_0}{c}E^2 \hat{k}} \end{equation} " %} </summary>
+\begin{equation} u = \epsilon_0 E^2 \quad \quad e \quad \quad \vec{p_v}=\frac{\epsilon_0}{c}E^2 \hat{k} \end{equation} " %} </summary>
   {% include note.html content="
    Introduzindo a expressão de $B$ numa onda plana como obtido anteriormente na expressão para a densidade de energia eletromagnética
   
