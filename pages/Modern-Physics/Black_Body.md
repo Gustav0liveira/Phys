@@ -42,7 +42,7 @@ Como a cavidade providencia as condições de um sistema isolado, tal comportame
 
 
 <details>
-  <summary>{% include important.html content="\begin{equation} x(t) =\frac{eE\cos(\omega t)}{m\sqrt{(\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2}}. \end{equation}" %} </summary>
+  <summary>{% include important.html content="\begin{equation} x(t) \keft(frac{eE}{m\sqrt{(\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2}}\right)\cos(\omega t) =A\cos(\omega t). \end{equation}" %} </summary>
   {% include note.html content="
     Seja a expressão não-transiente.
 
@@ -52,12 +52,11 @@ Como a cavidade providencia as condições de um sistema isolado, tal comportame
 
      x(t) =Re(Z) =\begin{equation} \sqrt{\frac{eE\cos}{m\left((\omega_0^2-\omega^2)+\frac{i\omega\gamma}{m}\right)} e^{i\omega t}}\sqrt{\frac{eE\cos}{m\left((\omega_0^2-\omega^2)+\frac{i\omega\gamma}{m}\right)} e^{i\omega t}} \end{equation}
 
-     \begin{equation} x(t) =\frac{eE\cos(\omega t)}{m\sqrt{(\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2}} \end{equation}
+     \begin{equation} x(t) =\frac{e^2 E^2}{m^2(\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2} \end{equation}
 
-
+" %}
 
   
-  " %}
 </details>
 
  Seja a expressão para a energia de um oscilador individual:
@@ -74,15 +73,17 @@ Como a cavidade providencia as condições de um sistema isolado, tal comportame
    \begin{equation} u =\frac{1}{2}m\left[-A\omega_0\sin(\omega_0t+\phi)\right)^2+\frac{1}{2}m\omega_0 \left(A\cos(\omega_0t+\phi)\right)^2\right]  \end{equation} 
    
    \begin{equation} =\frac{1}{2}mA^2\omega_0^2\left(\sin^2(\omega_0t+\phi)+\cos^2(\omega_0t+\phi) =\frac{1}{2}m\omega_0^2 A^2\end{equation}
-  
-   
-  
   " %}
 </details>
+
 
 Temos da amplitude obtida em nosso modelo, que a energia indivual de tais osciladores pode ser expressa na forma
 
 \begin{equation} u =\frac{1}{2}m\omega_0^2\frac{eE}{m\sqrt{(\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2}} \end{equation}
+
+
+Para valores de frequência $\omega \approx \omega_0$, temos que $\omega_0^2-\omega^2 = (\omega_0 - \omega)(\omega_0 + \omega) \approx 2 \omega_0(\omega_0 - \omega)$
+
 
 
 ### Lei de Stefan-Boltzmann
