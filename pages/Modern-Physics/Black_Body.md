@@ -50,9 +50,9 @@ Como a cavidade providencia as condições de um sistema isolado, tal comportame
 
      Para obter a parte real, usamos a identidade $Re\left(z(t)\right)=\sqrt{(z*z)}$, ou nos termos do problema
 
-     x(t) =Re(Z) =\begin{equation} \sqrt{\frac{eE\cos}{m\left((\omega_0^2-\omega^2)+\frac{i\omega\gamma}{m}\right)} e^{i\omega t}}\sqrt{\frac{eE\cos}{m\left((\omega_0^2-\omega^2)+\frac{i\omega\gamma}{m}\right)} e^{i\omega t}} \end{equation}
+     \begin{equation} x(t) =Re(Z) =\sqrt{\frac{eE\cos}{m\left((\omega_0^2-\omega^2)+\frac{i\omega\gamma}{m}\right)} e^{i\omega t}}\sqrt{\frac{eE\cos}{m\left((\omega_0^2-\omega^2)+\frac{i\omega\gamma}{m}\right)} e^{i\omega t}} \end{equation}
 
-     \begin{equation} x(t) =\frac{e^2 E^2}{m^2(\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2} \end{equation}
+     \begin{equation} \implies x(t) =\frac{e^2 E^2}{m^2(\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2} \end{equation}
 
 " %}
 
@@ -70,16 +70,17 @@ Como a cavidade providencia as condições de um sistema isolado, tal comportame
 
    para uma solucção da forma $x(t)=A\cos(\omega_0t+\phi)$ onde $A$ é a amplitude de oscilação, substituindo-a na expressão acima, obtém-se
 
-   \begin{equation} u =\frac{1}{2}m\left[-A\omega_0\sin(\omega_0t+\phi)\right)^2+\frac{1}{2}m\omega_0 \left(A\cos(\omega_0t+\phi)\right)^2\right]  \end{equation} 
+   \begin{equation} u =\frac{1}{2}m\left[\left(-A\omega_0\sin(\omega_0t+\phi)\right)^2+\frac{1}{2}m\omega_0 \left(A\cos(\omega_0t+\phi)\right)^2\right]  \end{equation} 
    
-   \begin{equation} =\frac{1}{2}mA^2\omega_0^2\left(\sin^2(\omega_0t+\phi)+\cos^2(\omega_0t+\phi) =\frac{1}{2}m\omega_0^2 A^2\end{equation}
+   \begin{equation} =\frac{1}{2}mA^2\omega_0^2\left(\sin^2(\omega_0t+\phi)+\cos^2(\omega_0t+\phi)\right) =\frac{1}{2}m\omega_0^2 A^2\end{equation}
   " %}
 </details>
 
 
 Temos da amplitude obtida em nosso modelo, que a energia indivual de tais osciladores pode ser expressa na forma
 
-\begin{equation} u =\frac{1}{2}m\omega_0^2\frac{eE}{m\sqrt{(\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2}} \end{equation}
+\begin{equation} u =\frac{1}{2}m\omega_0^2\frac{e^2E^2}{m(\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2}
+ \end{equation}
 
 
 Para valores de frequência $\omega \approx \omega_0$, temos que $\omega_0^2-\omega^2 = (\omega_0 - \omega)(\omega_0 + \omega) \approx 2 \omega_0(\omega_0 - \omega)$
