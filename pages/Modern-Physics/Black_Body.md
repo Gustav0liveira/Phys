@@ -70,6 +70,12 @@ Temos da amplitude obtida em nosso modelo, que a energia indivual de tais oscila
 
 Para valores de frequência $\omega \approx \omega_0$, temos que $\omega_0^2-\omega^2 = (\omega_0 - \omega)(\omega_0 + \omega) \approx 2 \omega_0(\omega_0 - \omega)$
 
+\begin{equation} u =\frac{1}{2}m\omega_0^2\frac{e^2E^2}{4m^2\omega_0^2(\omega_0-\omega)^2-\left(\omega_0\gamma\right)^2} =\frac{1}{8m}\frac{e^2E^2}{(\omega_0-\omega)^2-\left(\frac{\gamma}{2m}\right)^2}.
+ \end{equation} 
+
+Mas como discutido anteriormente, no interior da cavidade temos uma superposição de ondas planas de todas as frequências possíveis, de forma para encontrar a expressão para energia dos pequenos osciladores da parede, é necessário realizar uma soma contínua de u em todos os valores possíveis de $\omega$
+
+\begin{equation} u_{total} =\int_{\infty}\end{equation}
 
 
 ### Lei de Stefan-Boltzmann
