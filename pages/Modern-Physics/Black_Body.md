@@ -44,7 +44,7 @@ Como a cavidade providencia as condições de um sistema isolado, tal comportame
 
 
 <details>
-  <summary>{% include important.html content="Seja a expressão para a energia de um oscilador individual: \begin{equation}u = \frac{1}{2}m\omega_0 A^2$\end{equation} -- *(Clique aqui)" %} </summary>
+  <summary>{% include important.html content=" Seja a expressão para a energia de um oscilador individual (Clique Aqui):\begin{equation}\Large{u = \frac{1}{2}m\omega_0 A^2\end{equation}}" %} </summary>
   {% include note.html content="
    Seja a energia de um oscilador harmônico
 
@@ -210,14 +210,11 @@ Imaginando que o corpo negro transmita sua radiação eletromagnética por meio 
 
 
 
-é possível mostrar que a densidade de energia $u$ e de momento $\vec{p_v}$ das ondas planas são dadas por
-
-\begin{equation} u = \epsilon_0 E^2 \quad \quad e \quad \quad \vec{p_v}=\frac{\epsilon_0}{c}E^2 \hat{k} \end{equation}
-
-
 
 <details>
-  <summary>{% include important.html content="Tais expressões podem ser verificadas da seguinte maneira (clique aqui)" %} </summary>
+  <summary>{% include important.html content="é possível mostrar que a densidade de energia $u$ e de momento $\vec{p_v}$ das ondas planas são dadas por (clique aqui):
+
+\begin{equation} \Large{u = \epsilon_0 E^2 \quad \quad e \quad \quad \vec{p_v}=\frac{\epsilon_0}{c}E^2 \hat{k}} \end{equation} " %} </summary>
   {% include note.html content="
    Introduzindo a expressão de $B$ numa onda plana como obtido anteriormente na expressão para a densidade de energia eletromagnética
   
