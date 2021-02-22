@@ -44,7 +44,7 @@ Como a cavidade providencia as condições de um sistema isolado, tal comportame
 
 
 <details>
-  <summary>{% include important.html content="Seja a expressão para a energia de um oscilador individual: $u = \frac{1}{2}m\omega_0 A^2$" %} </summary>
+  <summary>{% include important.html content="Seja a expressão para a energia de um oscilador individual: \begin{equation}u = \frac{1}{2}m\omega_0 A^2$\end{equation} -- *(Clique aqui)" %} </summary>
   {% include note.html content="
    Seja a energia de um oscilador harmônico
 
