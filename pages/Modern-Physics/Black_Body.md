@@ -48,11 +48,11 @@ Como a cavidade providencia as condições de um sistema isolado, tal comportame
 
      \begin{equation} z(t) =\frac{eE\cos}{m\left((\omega_0^2-\omega^2)-\frac{i\omega\gamma}{m}\right)} e^{i\omega t}. \end{equation}
 
-     Para obter a parte real, usamos a identidade $Re\left(z(t)\right)=\sqrt(z*z)$, ou nos termos do problema
+     Para obter a parte real, usamos a identidade $Re\left(z(t)\right)=\sqrt{(z*z)}$, ou nos termos do problema
 
-     \begin{equation} \sqrt{\frac{eE\cos}{m\left((\omega_0^2-\omega^2)+\frac{i\omega\gamma}{m}\right)} e^{i\omega t}.}\sqrt{\frac{eE\cos}{m\left((\omega_0^2-\omega^2)+\frac{i\omega\gamma}{m}\right)} e^{i\omega t}.} \end{equation}
+     x(t) =Re(Z) =\begin{equation} \sqrt{\frac{eE\cos}{m\left((\omega_0^2-\omega^2)+\frac{i\omega\gamma}{m}\right)} e^{i\omega t}}\sqrt{\frac{eE\cos}{m\left((\omega_0^2-\omega^2)+\frac{i\omega\gamma}{m}\right)} e^{i\omega t}} \end{equation}
 
-     \begin{equation} \begin{equation} x(t) =\frac{eE\cos(\omega t)}{m\sqrt{(\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2}} \end{equation}
+     \begin{equation} x(t) =\frac{eE\cos(\omega t)}{m\sqrt{(\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2}} \end{equation}
 
 
 
