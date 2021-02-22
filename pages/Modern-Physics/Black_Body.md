@@ -44,9 +44,9 @@ Como a cavidade providencia as condições de um sistema isolado, tal comportame
 <details>
   <summary>{% include important.html content="\begin{equation} x(t) =\frac{eE\cos(\omega t)}{m\sqrt{\left((\omega_0^2-\omega^2)-\left(\frac{\omega\gamma}{m}\right)^2\right)}}. \end{equation}" %} </summary>
   {% include note.html content="
-   Seja a energia de um oscilador harmônico
-
-   \begin{equation} x(t) =\frac{eE\cos}{m\left((\omega_0^2-\omega^2)-\frac{i\omega\gamma}{m}\right)} \cos(\omega t). \end{equation}
+    Seja a expressão não-transiente.
+    
+     \begin{equation} x(t) =\frac{eE\cos}{m\left((\omega_0^2-\omega^2)-\frac{i\omega\gamma}{m}\right)} e^{i\omega t}. \end{equation}
   
   " %}
 </details>
