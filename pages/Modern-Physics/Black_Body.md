@@ -40,22 +40,7 @@ onde $\gamma = \frac{2e^2}{3c^3}$.
 
 Como a cavidade providencia as condições de um sistema isolado, tal comportamento se extende até sistema atingir uma situação de equilíbrio em que a taxa de emissão de energia por parte desses osciladores microscópicos é a mesma que a taxa de absorção. Logo, o sistema deve a longo prazo exibir o comportamento não-transiente, que é a parte real da solução particular
 
-
-<details>
-  <summary>{% include important.html content="\begin{equation} x(t) =\left(\frac{eE}{m\sqrt{(\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2}}\right)\cos(\omega t) =A\cos(\omega t). \end{equation}" %} </summary>
-  {% include note.html content="
-    Seja a expressão não-transiente.
-
-     \begin{equation} z(t) =\frac{eE\cos}{m\left((\omega_0^2-\omega^2)-\frac{i\omega\gamma}{m}\right)} e^{i\omega t}. \end{equation}
-
-     Para obter a parte real, usamos a identidade $Re\left(z(t)\right)=\sqrt{(z*z)}$, ou nos termos do problema
-
-     \begin{equation} x(t) =Re(Z) =\sqrt{\frac{eE\cos}{m\left((\omega_0^2-\omega^2)+\frac{i\omega\gamma}{m}\right)} e^{i\omega t}}\sqrt{\frac{eE\cos}{m\left((\omega_0^2-\omega^2)+\frac{i\omega\gamma}{m}\right)} e^{i\omega t}} \end{equation}
-
-     \begin{equation} \implies x(t) =\frac{e^2 E^2}{m^2(\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2} \end{equation}
-
-" %}
-
+\begin{equation} x(t) =\left(\frac{eE}{m\sqrt{(\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2}}\right)\cos(\omega t) =A\cos(\omega t). \end{equation}
   
 </details>
 
@@ -79,7 +64,7 @@ Como a cavidade providencia as condições de um sistema isolado, tal comportame
 
 Temos da amplitude obtida em nosso modelo, que a energia indivual de tais osciladores pode ser expressa na forma
 
-\begin{equation} u =\frac{1}{2}m\omega_0^2\frac{e^2E^2}{m(\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2}
+\begin{equation} u =\frac{1}{2}m\omega_0^2\frac{e^2E^2}{m^2\left((\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2\right)} =\frac{1}{2}m\omega_0^2\frac{e^2E^2}{m^2(\omega_0^2-\omega^2)^2-\left(\omega\gamma\right)^2}
  \end{equation}
 
 
