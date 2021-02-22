@@ -273,7 +273,7 @@ e integrada para obter
 
 que é equivalente á
 
-\begin{equation} u(T)=\delta T^4\end{equation}
+\begin{equation} u(T)=\sigma T^4\end{equation}
 
 
 
