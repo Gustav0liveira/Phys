@@ -42,9 +42,10 @@ Como a cavidade providencia as condições de um sistema isolado, tal comportame
 
 \begin{equation} x(t) =\frac{eE}{m\left((\omega_0^2-\omega^2)-\frac{i\omega\gamma}{m}\right)} \cos(\omega t). \end{equation}
 
+ Seja a expressão para a energia de um oscilador individual:
 
 <details>
-  <summary>{% include important.html content=" Seja a expressão para a energia de um oscilador individual (Clique Aqui):\begin{equation} u = \frac{1}{2}m\omega_0 A^2\end{equation}" %} </summary>
+  <summary> (clique Aqui para expandir a demonstração){% include important.html content="\begin{equation} u = \frac{1}{2}m\omega_0 A^2\end{equation}" %} </summary>
   {% include note.html content="
    Seja a energia de um oscilador harmônico
 
@@ -120,16 +121,12 @@ Seja a expressão para a densidade de enegia eletromagnética volumétrica $u$
   </details>
   
  
- 
-
-
+e a densidade volumétrica de momento linear do campo eletromagnético $\vec{p_v}$
 
 
 
 <details>
-  <summary>{% include important.html content="e a densidade volumétrica de momento linear do campo eletromagnético $\vec{p_v}$
-
-\begin{equation} \vec{p_v}=\epsilon_0\left(\vec{E}\times\vec{B}\right).\end{equation}" %} </summary>
+  <summary>(Clique Aqui para expandir a demonstração:){% include important.html content="\begin{equation} \vec{p_v}=\epsilon_0\left(\vec{E}\times\vec{B}\right).\end{equation}" %} </summary>
   {% include note.html content="
 Seja,
 
@@ -160,13 +157,10 @@ Temos que,
 
 
 
-
-
-
-
+Imaginando que o corpo negro transmita sua radiação eletromagnética por meio de ondas planas (na direção $\vec{k}$), cujo campo magnético fica definido em termos do campo elétrico através da relação
 
 <details>
-  <summary>{% include important.html content="Imaginando que o corpo negro transmita sua radiação eletromagnética por meio de ondas planas (na direção $\vec{k}$), cujo campo magnético fica definido em termos do campo elétrico através da relação $\vec{B} = \frac{1}{ck}\vec{K}\times\vec{E}$ (clique aqui)" %} </summary>
+  <summary>(Clique Aqui para expandir a demonstração):{% include important.html content="\begin{equation}\vec{B} = \frac{1}{ck}\vec{K}\times\vec{E}$ \end{equation}" %} </summary>
   {% include note.html content="
     No vácuo, onde não há fontes de cargas nem de correntes, as equações de Maxwell podem ser mostradas a satisfazer as equações de onda
   
@@ -203,13 +197,11 @@ Temos que,
 " %}
 </details>
 
-
+é possível mostrar que a densidade de energia $u$ e de momento $\vec{p_v}$ das ondas planas são dadas por:
 
 
 <details>
-  <summary>{% include important.html content="é possível mostrar que a densidade de energia $u$ e de momento $\vec{p_v}$ das ondas planas são dadas por (clique aqui):
-
-\begin{equation} u = \epsilon_0 E^2 \quad \quad e \quad \quad \vec{p_v}=\frac{\epsilon_0}{c}E^2 \hat{k} \end{equation} " %} </summary>
+  <summary>(Clique Aqui para expandir a demonstração):{% include important.html content="\begin{equation} u = \epsilon_0 E^2 \quad \quad e \quad \quad \vec{p_v}=\frac{\epsilon_0}{c}E^2 \hat{k} \end{equation} " %} </summary>
   {% include note.html content="
    Introduzindo a expressão de $B$ numa onda plana como obtido anteriormente na expressão para a densidade de energia eletromagnética
   
