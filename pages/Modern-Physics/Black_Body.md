@@ -40,7 +40,16 @@ onde $\gamma = \frac{2e^2}{3c^3}$.
 
 Como a cavidade providencia as condições de um sistema isolado, tal comportamento se extende até sistema atingir uma situação de equilíbrio em que a taxa de emissão de energia por parte desses osciladores microscópicos é a mesma que a taxa de absorção. Logo, o sistema deve a longo prazo exibir o comportamento não-transiente, que é a parte real da solução particular
 
-\begin{equation} x(t) =\frac{eE}{m\left((\omega_0^2-\omega^2)-\frac{i\omega\gamma}{m}\right)} \cos(\omega t). \end{equation}
+
+<details>
+  <summary>{% include important.html content="\begin{equation} x(t) =\frac{eE\cos(\omega t)}{m\sqrt{\left((\omega_0^2-\omega^2)-\frac{i\omega\gamma}{m}\right)}}. \end{equation}" %} </summary>
+  {% include note.html content="
+   Seja a energia de um oscilador harmônico
+
+   \begin{equation} x(t) =\frac{eE\cos}{m\left((\omega_0^2-\omega^2)-\frac{i\omega\gamma}{m}\right)} \cos(\omega t). \end{equation}
+  
+  " %}
+</details>
 
  Seja a expressão para a energia de um oscilador individual:
 
@@ -53,12 +62,16 @@ Como a cavidade providencia as condições de um sistema isolado, tal comportame
 
    para uma solucção da forma $x(t)=A\cos(\omega_0t+\phi)$ onde $A$ é a amplitude de oscilação, substituindo-a na expressão acima, obtém-se
 
-   \begin{equation} u =\frac{1}{2}m\left[-A\omega_0\sin(\omega_0t+\phi)\right)^2+\frac{1}{2}m\omega_0 \left(A\cos(\omega_0t+\phi)\right)^2  =\frac{1}{2}mA^2\omega^2\left(\sin(\omega_0t+\phi)+\cos(\omega_0t+\phi)\right] =\frac{1}{2}m\omega_0 A^2\end{equation}
+   \begin{equation} u =\frac{1}{2}m\left[-A\omega_0\sin(\omega_0t+\phi)\right)^2+\frac{1}{2}m\omega_0 \left(A\cos(\omega_0t+\phi)\right)^2  =\frac{1}{2}mA^2\omega_0^2\left(\sin^2(\omega_0t+\phi)+\cos^2(\omega_0t+\phi)\right] =\frac{1}{2}m\omega_0^2 A^2\end{equation}
   
    
   
   " %}
 </details>
+
+Temos da amplitude obtida em nosso modelo, que a energia indivual de tais osciladores pode ser expressa na forma
+
+\begin{equation} u =\frac{1}{2}m\omega_0^2\end{equation}
 
 
 ### Lei de Stefan-Boltzmann
