@@ -70,9 +70,10 @@ onde $\sigma = 5{,}67\times10^{-8} \frac{W}{m^2 K^4}$ é a constante de Stefan-B
 
 Tal expressão foi novamente deduzida em $1884$ por Ludwig Boltzmann utilizando as grandezas termodinâmicas associadas as ondas eletromagnético emitidas por corpos negros.
 
+Seja a expressão para a densidade de enegia eletromagnética volumétrica $u$
 
 <details>  
-<summary>{% include important.html content="Seja a expressão para a densidade de enegia eletromagnética volumétrica $u$ (clique aqui)
+<summary>(clique aqui){% include important.html content=" 
 
 \begin{equation} u = \frac{\epsilon_0}{2}\left(E^2+c^2B^2\right) \end{equation} " %} </summary>  {% include note.html content="
   Seja o trabalho realizada pela força de lorentz
