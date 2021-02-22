@@ -17,7 +17,7 @@ Talvez a melhor exemplificação de um corpo negro seja a de um objeto material 
 
 A parede interna como um sistema macroscópico, é composto a partir de um grande número de átomos, todos dispostos de forma que seus constituintes internos positivamente carregados no núcleo permaneçam relativamente fixos na estrutura molecular, enquanto seus elétrons, negativamente carregados, se concentrem na vizinhança imediata deste último, em primeira ordem, sob a ação de uma força restaurada $-m\omega_0^2 x$ devido as forças internas de coesão.
 
-Aquecendo a configuração a uma temperatura constante $T$, conforme é transferido energia na forma de calor para parede e a agitação molecular é incrementanda na forma de vibração, os seus átomos, que são nada mais que padrões complicados de seus constituintes eletricamente carregados, devem ser excitados e em resposta, como cargas elétricas aceleradas, emitir radiação eletromagnética, preenchendo assim cavidade interna com ondas eletromagnéticas.
+Aquecendo a configuração a uma temperatura constante $T$, conforme é transferido energia na forma de calor para parede e a agitação molecular é incrementanda na forma de vibração, os seus átomos (que são nada mais que padrões complicados de seus constituintes eletricamente carregados), devem ser excitados e em resposta(como cargas elétricas aceleradas), emitir radiação eletromagnética, preenchendo assim cavidade interna com ondas eletromagnéticas.
 Essa emissão de radiação e consequente perca de energia dos osciladores pode ser levada em conta por uma força dissipativa
 
 \begin{equation} -\frac{2e^2}{3c^3} \dot{a}\end{equation}
@@ -30,7 +30,7 @@ Tal radiação eletromagnética no interior da cavidade, caracterizada por super
 
 Assim, individualmente, os elétrons na parede devem se comportar como pequenos osciladores forçados pelo campo elétrico e amortecidos pela emissão de radiação na forma da equação diferencial ordinária não-homegênea 
 
-\begin{equation} m\ddot{x} -\frac{2e^2}{3c^3}\dot{x} + m\omega_0^2x = eE\cos(\omega t), \end{equation}
+\begin{equation} m\ddot{x} -\frac{2e^2}{3c^3}\omega^2\dot{x} + m\omega_0^2x = eE\cos(\omega t), \end{equation}
 
 que é caracterizada pela solução complexa,
 
@@ -41,6 +41,23 @@ onde $\gamma = \frac{2e^2}{3c^3}$.
 Como a cavidade providencia as condições de um sistema isolado, tal comportamento se extende até sistema atingir uma situação de equilíbrio em que a taxa de emissão de energia por parte desses osciladores microscópicos é a mesma que a taxa de absorção. Logo, o sistema deve a longo prazo exibir o comportamento não-transiente, que é a parte real da solução particular
 
 \begin{equation} x(t) =\frac{eE}{m\left((\omega_0^2-\omega^2)-\frac{i\omega\gamma}{m}\right)} \cos(\omega t). \end{equation}
+
+
+<details>
+  <summary>{% include important.html content="Seja a expressão para a energia de um oscilador individual: $u = \frac{1}{2}m\omega_0 A^2$" %} </summary>
+  {% include note.html content="
+   Seja a energia de um oscilador harmônico
+
+   \begin{equation} u= \frac{1}{2}m\dot{x}^2+\frac{1}{2}m\omega_0 x^2 \end{equation} 
+
+   para uma solucção da forma $x(t)=A\cos(\omega_0t+\phi)$ onde $A$ é a amplitude de oscilação, substituindo-a na expressão acima, obtém-se
+
+   \begin{equation} u =\frac{1}{2}m\left(-A\omega_0\sin(\omega_0t+\phi)\right)^2+\frac{1}{2}m\omega_0 \left(A\cos(\omega_0t+\phi)\right)^2 \end{equation} =\frac{1}{2}mA^2\omega^2\left(\sin(\omega_0t+\phi)+\cos(\omega_0t+\phi)\right) =\frac{1}{2}m\omega_0 A^2 
+  
+   
+  
+  " %}
+</details>
 
 
 ### Lei de Stefan-Boltzmann
