@@ -15,7 +15,7 @@ Um corpo negro é um modelo físico que representa a idealização de um objeto 
 
 Talvez a melhor exemplificação de um corpo negro seja a de um objeto material onde em seu interior exista uma cavidade de paredes foscas com um pequeno orifício conectando ao exterior.
 
-A parede interna como um sistema macroscópico, é composto a partir de um grande número de átomos, todos dispostos de forma que seus constituintes internos positivamente carregados no núcleo permaneçam relativamente fixos na estrutura molecular, enquanto seus elétrons, negativamente carregados, se concentrem na vizinhança imediata deste último, em primeira ordem, sob a ação de uma força restaurada $-m\omega_0^2 x$ devido as forças internas de coesão.
+A parede interna como um sistema macroscópico, é composto a partir de um grande número de átomos, todos dispostos de forma que seus constituintes internos positivamente carregados no núcleo permaneçam relativamente fixos na estrutura molecular, enquanto seus elétrons, negativamente carregados, se concentrem na vizinhança imediata deste último, sob a ação de uma força restauradora $-m\omega_0^2 x$ (em primeira ordem) devido as forças internas de coesão.
 
 Aquecendo a configuração a uma temperatura constante $T$, conforme é transferido energia na forma de calor para parede e a agitação molecular é incrementanda na forma de vibração, os seus átomos (que são nada mais que padrões complicados de seus constituintes eletricamente carregados), devem ser excitados e em resposta(como cargas elétricas aceleradas), emitir radiação eletromagnética, preenchendo assim cavidade interna com ondas eletromagnéticas.
 Essa emissão de radiação e consequente perca de energia dos osciladores pode ser levada em conta por uma força dissipativa
@@ -46,7 +46,16 @@ Como a cavidade providencia as condições de um sistema isolado, tal comportame
   {% include note.html content="
     Seja a expressão não-transiente.
 
-     \begin{equation} x(t) =\frac{eE\cos}{m\left((\omega_0^2-\omega^2)-\frac{i\omega\gamma}{m}\right)} e^{i\omega t}. \end{equation}
+     \begin{equation} z(t) =\frac{eE\cos}{m\left((\omega_0^2-\omega^2)-\frac{i\omega\gamma}{m}\right)} e^{i\omega t}. \end{equation}
+
+     Para obter a parte real, usamos a identidade $Re\left(z(t)\right)=\sqrt(z*z)$, ou nos termos do problema
+
+     \begin{equation} \sqrt{\frac{eE\cos}{m\left((\omega_0^2-\omega^2)+\frac{i\omega\gamma}{m}\right)} e^{i\omega t}.}\sqrt{\frac{eE\cos}{m\left((\omega_0^2-\omega^2)+\frac{i\omega\gamma}{m}\right)} e^{i\omega t}.} \end{equation}
+
+     \begin{equation} \begin{equation} x(t) =\frac{eE\cos(\omega t)}{m\sqrt{(\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2}} \end{equation}
+
+
+
   
   " %}
 </details>
@@ -54,15 +63,17 @@ Como a cavidade providencia as condições de um sistema isolado, tal comportame
  Seja a expressão para a energia de um oscilador individual:
 
 <details>
-  <summary>{% include important.html content="\begin{equation} u = \frac{1}{2}m\omega_0 A^2\end{equation}" %} </summary>
+  <summary>{% include important.html content="\begin{equation} u = \frac{1}{2}m\omega_0^2 A^2\end{equation}" %} </summary>
   {% include note.html content="
    Seja a energia de um oscilador harmônico
 
-   \begin{equation} u= \frac{1}{2}m\dot{x}^2+\frac{1}{2}m\omega_0 x^2 \end{equation} 
+   \begin{equation} u= \frac{1}{2}m\dot{x}^2+\frac{1}{2}m\omega_0^2 x^2 \end{equation} 
 
    para uma solucção da forma $x(t)=A\cos(\omega_0t+\phi)$ onde $A$ é a amplitude de oscilação, substituindo-a na expressão acima, obtém-se
 
-   \begin{equation} u =\frac{1}{2}m\left[-A\omega_0\sin(\omega_0t+\phi)\right)^2+\frac{1}{2}m\omega_0 \left(A\cos(\omega_0t+\phi)\right)^2  =\frac{1}{2}mA^2\omega_0^2\left(\sin^2(\omega_0t+\phi)+\cos^2(\omega_0t+\phi)\right] =\frac{1}{2}m\omega_0^2 A^2\end{equation}
+   \begin{equation} u =\frac{1}{2}m\left[-A\omega_0\sin(\omega_0t+\phi)\right)^2+\frac{1}{2}m\omega_0 \left(A\cos(\omega_0t+\phi)\right)^2\right]  \end{equation} 
+   
+   \begin{equation} =\frac{1}{2}mA^2\omega_0^2\left(\sin^2(\omega_0t+\phi)+\cos^2(\omega_0t+\phi) =\frac{1}{2}m\omega_0^2 A^2\end{equation}
   
    
   
