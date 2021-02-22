@@ -71,7 +71,7 @@ Como a cavidade providencia as condições de um sistema isolado, tal comportame
 
 Temos da amplitude obtida em nosso modelo, que a energia indivual de tais osciladores pode ser expressa na forma
 
-\begin{equation} u =\frac{1}{2}m\omega_0^2\end{equation}
+\begin{equation} u =\frac{1}{2}m\omega_0^2\frac{eE}{m\sqrt{(\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2}} \end{equation}
 
 
 ### Lei de Stefan-Boltzmann
@@ -173,7 +173,7 @@ Temos que,
 Imaginando que o corpo negro transmita sua radiação eletromagnética por meio de ondas planas (na direção $\vec{k}$), cujo campo magnético fica definido em termos do campo elétrico através da relação
 
 <details>
-  <summary>{% include important.html content="\begin{equation}\vec{B} = \frac{1}{ck}\vec{K}\times\vec{E}$ \end{equation}" %} </summary>
+  <summary>{% include important.html content="\begin{equation}\vec{B} = \frac{1}{ck}\vec{K}\times\vec{E} \end{equation}" %} </summary>
   {% include note.html content="
     No vácuo, onde não há fontes de cargas nem de correntes, as equações de Maxwell podem ser mostradas a satisfazer as equações de onda
   
