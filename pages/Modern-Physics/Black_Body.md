@@ -42,7 +42,7 @@ Como a cavidade providencia as condições de um sistema isolado, tal comportame
 
 
 <details>
-  <summary>{% include important.html content="\begin{equation} x(t) \left(frac{eE}{m\sqrt{(\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2}}\right)\cos(\omega t) =A\cos(\omega t). \end{equation}" %} </summary>
+  <summary>{% include important.html content="\begin{equation} x(t) =\left(\frac{eE}{m\sqrt{(\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2}}\right)\cos(\omega t) =A\cos(\omega t). \end{equation}" %} </summary>
   {% include note.html content="
     Seja a expressão não-transiente.
 
