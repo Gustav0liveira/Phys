@@ -53,7 +53,7 @@ Como a cavidade providencia as condições de um sistema isolado, tal comportame
 
    para uma solucção da forma $x(t)=A\cos(\omega_0t+\phi)$ onde $A$ é a amplitude de oscilação, substituindo-a na expressão acima, obtém-se
 
-   \begin{equation} u =\frac{1}{2}m\left(-A\omega_0\sin(\omega_0t+\phi)\right)^2+\frac{1}{2}m\omega_0 \left(A\cos(\omega_0t+\phi)\right)^2 \end{equation} =\frac{1}{2}mA^2\omega^2\left(\sin(\omega_0t+\phi)+\cos(\omega_0t+\phi)\right) =\frac{1}{2}m\omega_0 A^2 
+   \begin{equation} u =\frac{1}{2}m\left[-A\omega_0\sin(\omega_0t+\phi)\right)^2+\frac{1}{2}m\omega_0 \left(A\cos(\omega_0t+\phi)\right)^2  =\frac{1}{2}mA^2\omega^2\left(\sin(\omega_0t+\phi)+\cos(\omega_0t+\phi)\right] =\frac{1}{2}m\omega_0 A^2\end{equation}
   
    
   
