@@ -75,8 +75,103 @@ Para valores de frequência $\omega \approx \omega_0$, temos que $\omega_0^2-\om
 
 Mas como discutido anteriormente, no interior da cavidade temos uma superposição de ondas planas de todas as frequências possíveis, de forma para encontrar a expressão para energia dos pequenos osciladores da parede, é necessário realizar uma soma contínua de u em todos os valores possíveis de $\omega$
 
-\begin{equation} u_{total} =\int_{\infty}\end{equation}
+\begin{equation} u_{total} =\int_{-\infty}^{\infty} \end{equation}
 
+Como a equação (\ref{eq4}) se refere apenas ao campo elétrico que oscila de forma estacionária unidimensionalmente. Para a cavidade como um todo, a relação entre a energia total do corpo negro e o campo elétrico é dado por três vezes essa forma, ou ainda
+
+$$ E^2= \dfrac{8\omega^2}{\pi c^3}U$$
+
+Logo, a densidade de energia da radiação eletromagnética $\rho$, dada em unidade gaussinas, é expressa como:
+
+\begin{equation}
+    u(\omega_0,t)=\frac{1}{2}\epsilon_0 E^2 \equiv \frac{1}{8\pi}E^2=\frac{\omega_0^2}{\pi^2c^3}U
+\end{equation}
+Mundando (\ref{eq5}) da representação da frequência angular $\omega_0$ para a da frequência $\nu$, temos
+\begin{equation}
+    u(\nu,t)=\dfrac{\left(2\pi\nu\right)^2}{\pi^2c^3}2\pi U = \dfrac{8\pi\nu^2}{c^3}U(\nu, t)
+\end{equation}
+
+
+Uma vez determinada a relação entre a densidade de energia irradiada e a energia dos osciladores da cavidade, Plack se concentrou em encontrar a expressão para a entropia dos osciladores. 
+
+Pela já bem conhecida Lei de deslocamento de Wien, sabia-se que a curva que representava a densidade de energia emitida por um corpo negro deveria seguir um formato específico $\rho(\nu,T)=\alpha \nu^3 f(\frac{\nu}{T})$.
+
+Em 1893, o próprio Wien deu como palpite baseado nos dados experimentais da época que tal relação poderia ser expressa na forma,  
+
+\begin{equation}
+    u(\nu,T)=\alpha \nu^3 \exp{\dfrac{\beta \nu}{T}}.
+\end{equation}
+
+Com a expresssão (\ref{eq7}) de Wien, Planck pode encontrar a expressão para a energia dos osciladores como \cite{Planck-a}
+
+\begin{equation}
+    U(\nu,t)=\dfrac{\alpha c^3}{8\pi}\nu \exp{\left(-\dfrac{\beta \nu}{T}\right)}
+\end{equation}
+
+Que são os ingredientes necessários para obter a expressão para a entropia dos osciladores que descrevem a radiação de um corpo negro a altas frequências. Onde,
+
+\begin{center}
+\begin{tabular}{c c}
+   $S=\displaystyle \int{\dfrac{dU}{T}} $  & $~com~~~dU=\dfrac{\alpha c^3 \beta \nu^2}{8\pi T^2}\exp{\left(-\dfrac{\beta \nu}{T}\right)} dT$ 
+\end{tabular}
+\end{center}
+
+Temos
+
+\begin{equation}
+    S=\dfrac{\alpha c^3 \beta \nu^2}{8\pi}\int{\exp{\left(-\dfrac{\beta \nu}{T}\right)}\dfrac{dT}{T^3}}=\dfrac{\alpha c^3 \beta \nu^2}{8\pi(\beta \nu)^2}\exp{\left(-\dfrac{\beta \nu}{T}\right)}\left[\dfrac{\beta \nu}{T}+1\right]
+\end{equation}
+E usando (\ref{eq8}) em (\ref{eq9}), temos
+
+$$ S=-\dfrac{U}{\beta \nu}\left[\ln{\left(\dfrac{8\pi}{\alpha c^3 \nu}U\right)}-1\right] $$
+
+Permitindo Planck encontrar
+
+\begin{equation}
+    \dfrac{\partial^2S}{\partial U^2}=-\dfrac{1}{\beta \nu U}.
+\end{equation}
+
+Entretanto, ainda no mesmo ano, em 1900. Novos experimentos mostravam que para baixas frequências a intensidade da radiação dependia de $\nu^2$ e não de $\nu^3$ como na expressão de Wiens (\ref{eq7}). E ainda, a expressão para baixas frequências era proporcional a temperaatura da forma $\rho (\nu,T)\propto\nu^2 T \implies U(T) \propto T$.
+
+Significando que para baixas frequências a radiação da energia dos osciladores satisfazem a equipartição de energia $U(T)=\kappa_B T$, de modo que:
+
+\begin{equation}
+ S=\int \dfrac{dU}{T}=\kappa_B\int\dfrac{dT}{T}=\kappa_B\ln{T}=\kappa_B\ln{\dfrac{U}{\kappa_B}} \implies \dfrac{\partial^2U}{\partial U^2}=-\dfrac{\kappa_B}{U^2}   
+\end{equation}
+
+Assim, com (\ref{eq10}) e (\ref{eq11}) é possível condensar os resultados na forma
+
+\begin{center}
+\begin{tabular}{c c}
+  $\dfrac{\partial^2S}{\partial U^2}=-\dfrac{1}{\beta \nu U}$   & para $\nu \gg$ 0 \\
+   $\dfrac{\partial^2 U}{\partial U^2}=-\dfrac{\kappa_B}{U^2}$  & $\nu  \to$ 0
+\end{tabular}
+\end{center}
+
+Para acomodar esses resultados limites na descrição de uma única entropia mais geral, Planck \cite{Planck-a} fez como palpite que a segunda derivada fosse expressa por meio da expressão
+
+\begin{equation}
+    \dfrac{\partial^2 S}{\partial U^2}=-\dfrac{\kappa_B}{U\left(h\nu+U\right)}
+\end{equation}
+
+Onde $h=\kappa_B \beta = 6{,}628\times10^{-34}~ J\cdot s$.
+
+Uma vez com a expressão adequada para segunda derivada da entropia, foi possível rederivar a expressão correta da energia dos osciladores harmônicos responsáveis por irradiar radiação de corpo negro.
+Integrando a equação (\ref{eq12}) em respeito a U, temos
+
+\begin{equation}
+ \dfrac{dS}{dU}=-\kappa_B \int{\dfrac{dU}{U\left(h\nu+U\right)}}=-\dfrac{\kappa_B}{h\nu}\int{\dfrac{dU}{U}}+\dfrac{\kappa_B}{h\nu}\int{\dfrac{dU}{h\nu+U}}=\dfrac{\kappa_B}{h\nu}\left[\ln{\left(1+\dfrac{U}{h\nu}\right)}-\ln{\left(\dfrac{U}{h \nu}\right)}\right] \end{equation}
+
+mas $\frac{dS}{dU}=\frac{1}{T}$, logo
+
+$$\dfrac{\kappa_B}{h\nu}\left[\ln{\left(1+\dfrac{U}{h\nu}\right)}-\ln{\left(\dfrac{U}{h \nu}\right)}\right]=\dfrac{1}{T}~\implies~ \ln\left(\dfrac{1+\frac{U}{h\nu}}{\frac{U}{h\nu}}\right)=\dfrac{h\nu}{\kappa_B T} $$
+
+Permitindo usar $U(T)$ na forma
+
+
+\begin{equation}
+    U(T)=\dfrac{h\nu}{\exp{\left(\frac{h\nu}{\kappa_B T}\right)}-1} 
+\end{equation}
 
 ### Lei de Stefan-Boltzmann
 
