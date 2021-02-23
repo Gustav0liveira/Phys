@@ -110,11 +110,11 @@ Com a expresssão (\ref{eq7}) de Wien, Planck pode encontrar a expressão para a
 
 Que são os ingredientes necessários para obter a expressão para a entropia dos osciladores que descrevem a radiação de um corpo negro a altas frequências. Onde,
 
-\begin{center}
+
 \begin{tabular}{c c}
    $S=\displaystyle \int{\dfrac{dU}{T}} $  & $~com~~~dU=\dfrac{\alpha c^3 \beta \nu^2}{8\pi T^2}\exp{\left(-\dfrac{\beta \nu}{T}\right)} dT$ 
 \end{tabular}
-\end{center}
+
 
 Temos
 
@@ -141,12 +141,10 @@ Significando que para baixas frequências a radiação da energia dos osciladore
 
 Assim, com (\ref{eq10}) e (\ref{eq11}) é possível condensar os resultados na forma
 
-\begin{center}
 \begin{tabular}{c c}
   $\dfrac{\partial^2S}{\partial U^2}=-\dfrac{1}{\beta \nu U}$   & para $\nu \gg$ 0 \\
    $\dfrac{\partial^2 U}{\partial U^2}=-\dfrac{\kappa_B}{U^2}$  & $\nu  \to$ 0
 \end{tabular}
-\end{center}
 
 Para acomodar esses resultados limites na descrição de uma única entropia mais geral, Planck \cite{Planck-a} fez como palpite que a segunda derivada fosse expressa por meio da expressão
 
