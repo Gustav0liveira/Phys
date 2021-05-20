@@ -13,9 +13,8 @@ Já com relação a matéria, apesar de ainda com resistência, mais e mais fís
 Portanto, restavam aos físicos da época explicar a partir dessa imagem da natureza, como a luz e a matéria deviam interagir para dar origem aos fenomenos conhecidos como a reflexão, transmissão e absorvição da luz por parte de certos materias ditos respectivamente reflexitivos, transparentes e foscos.
 ---
 
-## Introdução
-
-
 ## Luz como radiação eletromagnética
+
+É como a vida é
 
 
