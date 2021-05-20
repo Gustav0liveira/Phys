@@ -23,8 +23,8 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Interação LMatéria
-      url: /Luz_e_Matéria.html
+    - title: Interação Luz/Matéria
+      url: /Luz_e_Materia.html
       output: web, pdf
 
     - title: Corpo Negro
