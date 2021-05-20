@@ -263,13 +263,13 @@ Temos que,
  Possibilitando identificar o momento do campo eletromagnético como  $\vec{P_{Campo}}= \int_V \vec{p_v} d^3r $ onde  $\vec{p_v}=\epsilon_0(\vec{E}\times\vec{B})$ é a densidade de momento do campo eletromagnético.
  
 " %}
-</details>$
+</details>
 
 
 
 Imaginando que o corpo negro transmita sua radiação eletromagnética por meio de ondas planas (na direção $\vec{k}$), cujo campo magnético fica definido em termos do campo elétrico através da relação
 
-$<details>
+<details>
   <summary>{% include important.html content="$$\vec{B} = \frac{1}{ck}\vec{K}\times\vec{E} $$" %} </summary>
   {% include note.html content="
     No vácuo, onde não há fontes de cargas nem de correntes, as equações de Maxwell podem ser mostradas a satisfazer as equações de onda
