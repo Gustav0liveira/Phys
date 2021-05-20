@@ -17,7 +17,7 @@ Talvez a melhor exemplificação de um corpo negro seja a de um objeto material 
 
 A parede interna como um sistema macroscópico, é composto a partir de um grande número de átomos, todos dispostos de forma que seus constituintes internos positivamente carregados no núcleo permaneçam relativamente fixos na estrutura molecular, enquanto seus elétrons, negativamente carregados, se concentrem na vizinhança imediata deste último, sob a ação de uma força restauradora $-m\omega_0^2 x$ (em primeira ordem) devido as forças internas de coesão.
 
-Aquecendo a configuração a uma temperatura constante $T$, conforme é transferido energia na forma de calor para parede e a agitação molecular é incrementanda na forma de vibração, os seus átomos (que são nada mais que padrões complicados de seus constituintes eletricamente carregados), devem ser excitados e em resposta(como cargas elétricas aceleradas), emitir radiação eletromagnética, preenchendo assim cavidade interna com ondas eletromagnéticas.
+Aquecendo a configuração a uma temperatura constante $T$, conforme é transferido energia na forma de calor para parede e a agitação molecular é incrementanda na forma de vibração, os seus átomos (que são nada mais que padrões complicados de seus constituintes eletricamente carregados), devem ser excitados e em resposta (como cargas elétricas aceleradas), emitir radiação eletromagnética, preenchendo assim cavidade interna com ondas eletromagnéticas.
 Essa emissão de radiação e consequente perca de energia dos osciladores pode ser levada em conta por uma força dissipativa
 
 $$ -\frac{2e^2}{3c^3} \dot{a}$$
@@ -146,7 +146,7 @@ $$\begin{matrix}
    \dfrac{\partial^2 U}{\partial U^2}=-\dfrac{\kappa_B}{U^2}  & \nu  \to 0
 \end{matrix}$$
 
-Para acomodar esses resultados limites na descrição de uma única entropia mais geral, Planck \cite{Planck-a} fez como palpite que a segunda derivada fosse expressa por meio da expressão
+Para acomodar esses resultados limites na descrição de uma única entropia mais geral, Planck fez como palpite que a segunda derivada fosse expressa por meio da expressão
 
 $$
     \dfrac{\partial^2 S}{\partial U^2}=-\dfrac{\kappa_B}{U\left(h\nu+U\right)}
@@ -155,7 +155,7 @@ $$
 Onde $h=\kappa_B \beta = 6{,}628\times10^{-34}~ J\cdot s$.
 
 Uma vez com a expressão adequada para segunda derivada da entropia, foi possível rederivar a expressão correta da energia dos osciladores harmônicos responsáveis por irradiar radiação de corpo negro.
-Integrando a equação (\ref{eq12}) em respeito a U, temos
+Integrando a equação em respeito a U, temos
 
 $$
  \dfrac{dS}{dU}=-\kappa_B \int{\dfrac{dU}{U\left(h\nu+U\right)}}=-\dfrac{\kappa_B}{h\nu}\int{\dfrac{dU}{U}}+\dfrac{\kappa_B}{h\nu}\int{\dfrac{dU}{h\nu+U}}=\dfrac{\kappa_B}{h\nu}\left[\ln{\left(1+\dfrac{U}{h\nu}\right)}-\ln{\left(\dfrac{U}{h \nu}\right)}\right] $$
@@ -263,13 +263,13 @@ Temos que,
  Possibilitando identificar o momento do campo eletromagnético como  $\vec{P_{Campo}}= \int_V \vec{p_v} d^3r $ onde  $\vec{p_v}=\epsilon_0(\vec{E}\times\vec{B})$ é a densidade de momento do campo eletromagnético.
  
 " %}
-</details>
+</details>$
 
 
 
 Imaginando que o corpo negro transmita sua radiação eletromagnética por meio de ondas planas (na direção $\vec{k}$), cujo campo magnético fica definido em termos do campo elétrico através da relação
 
-<details>
+$<details>
   <summary>{% include important.html content="$$\vec{B} = \frac{1}{ck}\vec{K}\times\vec{E} $$" %} </summary>
   {% include note.html content="
     No vácuo, onde não há fontes de cargas nem de correntes, as equações de Maxwell podem ser mostradas a satisfazer as equações de onda
