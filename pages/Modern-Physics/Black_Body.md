@@ -47,7 +47,7 @@ $$ x(t) =\left(\frac{eE}{m\sqrt{(\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma
  Seja a expressão para a energia de um oscilador individual:
 
 <details>
-  <summary>{% include important.html content="$$ u = \frac{1}{2}m\omega_0^2 A^2$$" %} </summary>
+  <summary>{% include important.html content="$u = \frac{1}{2}m\omega_0^2 A^2$" %} </summary>
   {% include note.html content="
    Seja a energia de um oscilador harmônico
 
@@ -111,9 +111,9 @@ $$
 Que são os ingredientes necessários para obter a expressão para a entropia dos osciladores que descrevem a radiação de um corpo negro a altas frequências. Onde,
 
 
-\begin{matrix}
+$$\begin{matrix}
    S=\displaystyle \int{\dfrac{dU}{T}}  & ~com~~~dU=\dfrac{\alpha c^3 \beta \nu^2}{8\pi T^2}\exp{\left(-\dfrac{\beta \nu}{T}\right)} dT 
-\end{matrix}
+\end{matrix}$$
 
 
 Temos
@@ -141,10 +141,10 @@ $$
 
 Assim, com (\ref{eq10}) e (\ref{eq11}) é possível condensar os resultados na forma
 
-\begin{matrix}
+$$\begin{matrix}
   \dfrac{\partial^2S}{\partial U^2}=-\dfrac{1}{\beta \nu U}   & para \nu \gg 0 \\
    \dfrac{\partial^2 U}{\partial U^2}=-\dfrac{\kappa_B}{U^2}  & \nu  \to 0
-\end{matrix}
+\end{matrix}$$
 
 Para acomodar esses resultados limites na descrição de uma única entropia mais geral, Planck \cite{Planck-a} fez como palpite que a segunda derivada fosse expressa por meio da expressão
 
@@ -184,7 +184,7 @@ Tal expressão foi novamente deduzida em $1884$ por Ludwig Boltzmann utilizando 
 Seja a expressão para a densidade de enegia eletromagnética volumétrica $u$
 
 <details>  
-<summary>{% include important.html content=" $$ u = \frac{\epsilon_0}{2}\left(E^2+c^2B^2\right) $$ " %} </summary>  {% include note.html content="
+<summary>{% include important.html content=" $$u = \frac{\epsilon_0}{2}\left(E^2+c^2B^2\right)$$ " %} </summary>  {% include note.html content="
   Seja o trabalho realizada pela força de lorentz
 
   $$ dW=\vec{F}\cdot d\vec{l} = q\left(\vec{E}+\vec{v}\times\vec{B}\right)\cdot\vec{v}dt= q\vec{E}\cdot\vec{v}dt $$
@@ -274,7 +274,7 @@ Imaginando que o corpo negro transmita sua radiação eletromagnética por meio 
   {% include note.html content="
     No vácuo, onde não há fontes de cargas nem de correntes, as equações de Maxwell podem ser mostradas a satisfazer as equações de onda
   
-  \begin{matrix} \nabla^2 \vec{E} = \frac{1}{c^2} \frac{\partial^2 \vec{E}}{\partial t^2} \\ \nabla^2 \vec{B} = \frac{1}{c^2} \frac{\partial^2 \vec{B}}{\partial t^2} \end{matrix}
+  $$\begin{matrix} \nabla^2 \vec{E} = \frac{1}{c^2} \frac{\partial^2 \vec{E}}{\partial t^2} \\ \nabla^2 \vec{B} = \frac{1}{c^2} \frac{\partial^2 \vec{B}}{\partial t^2} \end{matrix}$$
   
   que possuem como solução
   
@@ -311,7 +311,7 @@ Imaginando que o corpo negro transmita sua radiação eletromagnética por meio 
 
 
 <details>
-  <summary>{% include important.html content="$$ u = \epsilon_0 E^2 \quad \quad e \quad \quad \vec{p_v}=\frac{\epsilon_0}{c}E^2 \hat{k} $$ " %} </summary>
+  <summary>{% include important.html content="$u = \epsilon_0 E^2 \quad \quad e \quad \quad \vec{p_v}=\frac{\epsilon_0}{c}E^2 \hat{k}$ " %} </summary>
   {% include note.html content="
    Introduzindo a expressão de $B$ numa onda plana como obtido anteriormente na expressão para a densidade de energia eletromagnética
   
