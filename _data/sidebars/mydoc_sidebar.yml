@@ -19,9 +19,9 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Física Moderna
-    output: web, pdf
-    folderitems:
+    - title: Física Moderna
+      output: web, pdf
+      folderitems:
 
     - title: Interação Luz/Matéria
       url: /Luz_e_Materia.html
