@@ -1,5 +1,3 @@
-# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
-
 entries:
 - title: sidebar
   product: Physis
@@ -23,15 +21,15 @@ entries:
       output: web, pdf
       folderitems:
 
-    - title: Interação Luz/Matéria
+      - title: Interação Luz/Matéria
       url: /Luz_e_Materia.html
       output: web, pdf
 
-    - title: Lei de Stefan-Boltzmann
+      - title: Lei de Stefan-Boltzmann
       url: /Lei_de_Stefan.html
       output: web, pdf
 
-    - title: Lei de Planck
+      - title: Lei de Planck
       url: /Lei_de_Planck.html
       output: web, pdf
 
