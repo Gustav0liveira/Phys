@@ -23,7 +23,7 @@ Seja a expressão para a densidade de enegia eletromagnética volumétrica $u$
 <summary>{% include important.html content=" $$u = \frac{\epsilon_0}{2}\left(E^2+c^2B^2\right)$$ " %} </summary>  {% include note.html content="
   Seja o trabalho realizada pela força de lorentz
 
-  $$ dW=\vec{F}\cdot d\vec{l} = q\left(\vec{E}+\vec{v}\times\vec{B}\right)\cdot\vec{v}dt= q\vec{E}\cdot\vec{v}dt $$
+  \\( dW=\vec{F}\cdot d\vec{l} = q\left(\vec{E}+\vec{v}\times\vec{B}\right)\cdot\vec{v}dt= q\vec{E}\cdot\vec{v}dt \\)
   
   
   sendo $q\leftarrow \rho d^3r \implies q\vec{v}=\rho\vec{v}d^3r=\vec{J}d^3r$
