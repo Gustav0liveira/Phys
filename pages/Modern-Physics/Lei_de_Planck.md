@@ -4,8 +4,9 @@ keywords: Física
 tags: [Física]
 sidebar: mydoc_sidebar
 permalink: Lei_de_Planck.html
-summary: Um corpo negro é um modelo físico que representa a idealização de um objeto que absorve e reemite radiação eletromagnética de forma perfeita.
+summary: Um corpo negro é um modelo físico que representa a idealização de um objeto que absorve e reemite radiação eletromagnética
 ---
+
 ### Corpo negro como uma cavidade
 
 Talvez a melhor exemplificação de um corpo negro seja a de um objeto material onde em seu interior exista uma cavidade de paredes foscas com um pequeno orifício conectando ao exterior.
