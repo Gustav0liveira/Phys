@@ -72,13 +72,13 @@ e a densidade volumétrica de momento linear do campo eletromagnético $\vec{p_v
 
 
 <details>
-  <summary>{% include important.html content="$$ \vec{p_v}=\epsilon_0\left(\vec{E}\times\vec{B}\right).$$" %} </summary>
+  <summary>{% include important.html content="\begin{equation} \vec{p_v}=\epsilon_0\left(\vec{E}\times\vec{B}\right).\end{equation}" %} </summary>
   {% include note.html content="
 Seja,
 
 Para  $q \rightarrow \int_V \rho d^3r$, temos que a expressão anterior pode ser reescrita da forma
 
- $$ \frac{d}{dt}\vec{P_Mec}= \int_V \rho \left(\vec{E}+\vec{v}\times\vec{B} \right)d^3r= \int_V \left(\rho\vec{E}+\vec{J}\times\vec{B} \right)d^3r $$
+ \beguin{equation} \frac{d}{dt}\vec{P_Mec}= \int_V \rho \left(\vec{E}+\vec{v}\times\vec{B} \right)d^3r= \int_V \left(\rho\vec{E}+\vec{J}\times\vec{B} \right)d^3r \end`{equation}
 
  Onde  $ P_{Mec} $ é o momento total do sistema. Através das equações de maxwell,  $\rho=\epsilon_0\vec{\nabla}\vec{E}$ e  $\vec{J}=\frac{1}{\mu_0} (\vec{\nabla}\times\vec{B})-\epsilon_0\frac{\partial \vec{E}}{\partial t}$ é possível reescrever a expressão  $\rho\vec{E}+\vec{J}\vec{B}$ na forma:
 
