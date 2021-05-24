@@ -20,7 +20,7 @@ Tal expressão foi novamente deduzida em $1884$ por Ludwig Boltzmann utilizando 
 Seja a expressão para a densidade de enegia eletromagnética volumétrica $u$
 
 <details>  
-<summary>{% include important.html content=" $$u = \frac{\epsilon_0}{2}\left(E^2+c^2B^2\right)$$ "} </summary>  {% include note.html content="
+<summary>{% include important.html content=" $$\begin{equation} u = \frac{\epsilon_0}{2}\left(E^2+c^2B^2\right)\end{equation} $$ "} </summary>  {% include note.html content="
   Seja o trabalho realizada pela força de lorentz
 
   \\( dW=\vec{F}\cdot d\vec{l} = q\left(\vec{E}+\vec{v}\times\vec{B}\right)\cdot\vec{v}dt= q\vec{E}\cdot\vec{v}dt \\)
